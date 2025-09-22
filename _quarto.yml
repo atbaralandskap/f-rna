@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Förna"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Hem
+      - href: produkter.qmd
+        text: Produkter
+      - href: kontakt.qmd
+        text: Kontakt
+
+format:
+  html:
+    theme: cosmo       # Bootstrap-tema, byt gärna till "minty", "flatly", osv.
+    css: styles.css    # Din egen CSS (valfritt)
+    toc: false         # Ingen innehållsförteckning i sidokolumnen

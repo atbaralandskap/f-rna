@@ -1,0 +1,10 @@
+---
+title: "Hem"
+---
+
+# Välkommen till Förna
+
+Här kan du skriva lite introtext om föreningen eller projektet.
+
+-   Lägg till bilder i mappen `images/`
+-   Uppdatera `produkter.qmd` för att visa ert lagersaldo

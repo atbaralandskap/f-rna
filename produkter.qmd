@@ -1,0 +1,54 @@
+::::: grid
+---
+title: "Produkter"
+---
+
+# Våra produkter
+
+Nedan listas produkter från `data/lager.csv`.\
+Uppdatera CSV-filen för att ändra sortiment och saldo.
+
+\`\`\`{r} library(readr) library(dplyr) library(glue)
+
+# Läs in lagret
+
+lager \<- read_csv("data/lager.csv", show_col_types = FALSE) \|\> mutate( status = if_else(saldo \> 0, paste0("I lager: ", saldo), "Slut"), klass = if_else(saldo \> 0, "lager", "slut") )
+
+# Skapa HTML-kort
+
+html_cards \<- glue_data( lager, '
+
+::: card
+<h3>{produkt}</h3>
+
+<p class="pris">
+
+{pris} kr
+
+</p>
+
+<p>{beskrivning}</p>
+
+<p class="status {klass}">
+
+{status}
+
+</p>
+
+<p>Beställ: <a href="mailto:info@forna.se?subject=Beställning%20{produkt}"> info\@forna.se</a></p>
+:::
+
+' )
+
+# Skriv ut alla kort i en grid
+
+cat('
+
+::: grid
+', paste(html_cards, collapse="\n"), '
+:::
+
+')
+:::::
+
+')
