@@ -7,8 +7,9 @@
 # Quarto cache
 _site/
 .quarto/_freeze/
+.quarto/preview/
 
 # OS
 .DS_Store
 Thumbs.db
-.quarto/preview/
+
