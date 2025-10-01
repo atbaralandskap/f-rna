@@ -1,4 +1,13 @@
-.Rproj.user
+# RStudio / R
 .Rhistory
 .RData
-.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Quarto cache
+_site/
+.quarto/_freeze/
+
+# OS
+.DS_Store
+Thumbs.db
