@@ -1,0 +1,49 @@
+/* Grid för produkterna */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Kort-stil */
+.card {
+  border: 1px solid #e7e7e7;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0.2rem 0;
+}
+
+.pris {
+  font-weight: 600;
+  margin: 0.4rem 0;
+}
+
+.status {
+  font-weight: 600;
+}
+
+.status.lager {
+  color: #0a7f2e; /* grön */
+}
+
+.status.slut {
+  color: #a11616; /* röd */
+}
+
+/* Liten tonad text */
+.footer-note {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-top: 1rem;
+}
