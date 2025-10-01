@@ -1,6 +1,7 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs   # Byggs direkt till en mapp som GitHub Pages gillar
+
 
 website:
   title: "Förna"
