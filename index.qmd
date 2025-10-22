@@ -1,10 +1,60 @@
 ---
-title: "Hem"
+title: "Förna – nötodling, landskap och samspel"
+format:
+  html:
+    toc: false
 ---
 
-# Välkommen till Förna
+<section style="background-color:#f8f8f8; padding:3em 0; text-align:center; border-radius:8px;">
+  <img src="bilder/förna_logga.jpg" width="160" style="border-radius:50%; margin-bottom:1em;">
+  <h1 style="font-size:2.2em; margin-bottom:0.2em;">Förna</h1>
+  <p style="font-size:1.2em; color:#444; max-width:600px; margin:auto;">
+    En förening för nötodling, skogsträdgård och levande landskap i Sankt Olof.
+  </p>
+</section>
 
-Här kan du skriva lite introtext om föreningen eller projektet.
+---
 
--   Lägg till bilder i mappen `images/`
--   Uppdatera `produkter.qmd` för att visa ert lagersaldo
+<section style="padding:2em 0; text-align:center;">
+  <img src="bilder/sjörövar_fabbe.jpg" width="240" style="border-radius:12px; margin-bottom:1em;">
+  <h2>Om oss</h2>
+  <p style="max-width:650px; margin:auto;">
+    Förna växte fram ur en vilja att förena människor, träd och ekologi i ett gemensamt lärande.
+    På gården utanför Sankt Olof planterar vi valnöt, kastanj och hassel i ett mosaiklandskap av odling och natur.
+    Målet är långsiktig matproduktion, biologisk mångfald och en plats som bjuder in både människor och djur.
+  </p>
+</section>
+
+---
+
+<section style="background-color:#f4f4f4; padding:2em 0; text-align:center;">
+  <h2>En glimt från gården</h2>
+  <p>Följ med ut bland träden och jordhögarna – här odlas framtiden fram:</p>
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/hc6dpnGMlBA"
+    title="Förna på YouTube" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen style="margin-top:1em; border-radius:8px;">
+  </iframe>
+</section>
+
+---
+
+<section style="padding:2em 0; text-align:center;">
+  <h2>Våra fokusområden</h2>
+  <ul style="display:inline-block; text-align:left; font-size:1.1em;">
+    <li>Ekologisk nötodling – valnöt, hassel och kastanj</li>
+    <li>Markvård och vattenhållande strukturer</li>
+    <li>Skogsträdgårdsexperiment och biologisk mångfald</li>
+    <li>Öppen kunskapsdelning och fältvandringar</li>
+  </ul>
+</section>
+
+---
+
+<section style="text-align:center; padding:2em 0;">
+  <h2>Vill du veta mer?</h2>
+  <p>
+    Läs vidare om <a href="produkter.html">våra produkter</a> eller ta kontakt via <a href="kontakt.html">vårt kontaktformulär</a>.
+  </p>
+</section>

@@ -2,16 +2,37 @@
   {
     "objectID": "produkter.html",
     "href": "produkter.html",
-    "title": "Produkter",
+    "title": "Våra produkter",
     "section": "",
-    "text": "Våra produkter\nNedan listas produkter från data/lager.csv.\nUppdatera CSV-filen för att ändra sortiment och saldo.\n```{r} library(readr) library(dplyr) library(glue)\n\n\nLäs in lagret\nlager &lt;- read_csv(“data/lager.csv”, show_col_types = FALSE) |&gt; mutate( status = if_else(saldo &gt; 0, paste0(“I lager:”, saldo), “Slut”), klass = if_else(saldo &gt; 0, “lager”, “slut”) )\n\n\nSkapa HTML-kort\nhtml_cards &lt;- glue_data( lager, ’\n\n\n{produkt}\n\n\n{pris} kr\n\n\n{beskrivning}\n\n\n{status}\n\n\nBeställ:  info@forna.se\n\n\n’ )\n\n\nSkriv ut alla kort i en grid\ncat(’\n\n‘, paste(html_cards, collapse=“”),’\n\n’)\n\n\n’)"
+    "text": "Juglans 15 cm\nUnga valnötsträd i tidig tillväxt.\n\n\n Juglans 90 cm\nEttåriga träd med kraftiga stammar.\n\n\n Castanea sativa\nKastanjplantor från Baskemölla.\n\n\n Juglans regia\nValnötsträd i odlingsmiljö."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hem",
+    "objectID": "produkter.html#våra-träd",
+    "href": "produkter.html#våra-träd",
+    "title": "Våra produkter",
     "section": "",
-    "text": "Välkommen till Förna\nHär kan du skriva lite introtext om föreningen eller projektet.\n\nLägg till bilder i mappen images/\nUppdatera produkter.qmd för att visa ert lagersaldo"
+    "text": "Juglans 15 cm\nUnga valnötsträd i tidig tillväxt.\n\n\n Juglans 90 cm\nEttåriga träd med kraftiga stammar.\n\n\n Castanea sativa\nKastanjplantor från Baskemölla.\n\n\n Juglans regia\nValnötsträd i odlingsmiljö."
+  },
+  {
+    "objectID": "produkter.html#äkta-valnötsträd-juglans-regia",
+    "href": "produkter.html#äkta-valnötsträd-juglans-regia",
+    "title": "Våra produkter",
+    "section": "Äkta Valnötsträd (Juglans regia)",
+    "text": "Äkta Valnötsträd (Juglans regia)\n\n\n\nValnötsträd i odlingen\n\n\nPris: från 50 kr\nPlats: Kivik, Skåne\nSkick: Ny\nVi bedriver ett selekteringsarbete med valnötsträd och äkta kastanjträd.\nValnötterna plockas i Professorstaden, Lund och har valts med omsorg för att säkerställa en bred genetik genom naturlig korspollinering. Endast de största nötterna används som utsäde.\nTräden upphämtas på bar rot – utan kruka – vilket gör att rotsystemet skadas minimalt och tillväxten blir snabbare.\nUtplantering kan ske när som helst så länge marken inte är frusen. Rådgivning ges på plats.\n\nPrislista – Äkta valnöt\n\n\n\nStorlek\nPris\n\n\n\n\n5+ cm\n50 kr\n\n\n10+ cm\n100 kr\n\n\n20+ cm\n150 kr\n\n\n30+ cm\n200 kr\n\n\n40+ cm\n250 kr\n\n\n50+ cm\n300 kr\n\n\n60+ cm\n350 kr\n\n\n70+ cm\n400 kr\n\n\n80+ cm\n450 kr\n\n\n90+ cm\n500 kr"
+  },
+  {
+    "objectID": "produkter.html#äkta-kastanjeträd-castanea-sativa",
+    "href": "produkter.html#äkta-kastanjeträd-castanea-sativa",
+    "title": "Våra produkter",
+    "section": "Äkta Kastanjeträd (Castanea sativa)",
+    "text": "Äkta Kastanjeträd (Castanea sativa)\n\n\n\nKastanjplantor i Baskemölla\n\n\nPris: från 100 kr\nPlats: Kivik, Skåne\nSkick: Ny\nKastanjerna plockas i Baskemölla, och varje nöt väljs ut för att bibehålla genetisk variation och styrka.\nLiksom valnötterna säljs träden på bar rot för att främja ett kraftigt rotsystem.\n\nPrislista – Äkta kastanj\n\n\n\nStorlek\nPris\n\n\n\n\n5+ cm\n100 kr\n\n\n10+ cm\n150 kr\n\n\n15+ cm\n200 kr\n\n\n20+ cm\n250 kr\n\n\n30+ cm\n300 kr\n\n\n40+ cm\n350 kr\n\n\n50+ cm\n400 kr\n\n\n60+ cm\n450 kr\n\n\n\n\n\n\nBeställning och kontakt\nFörbeställningar görs enklast via meddelande eller telefon.\nBetalning sker på plats – kontant, Swish eller faktura.\nAdress: Bästekille Oraväg 17, Kivik\nFör rådgivning om plantering, jordmån eller storleksval, kontakta oss gärna på plats.\nVi hjälper dig hitta rätt träd för rätt plats."
+  },
+  {
+    "objectID": "kontakt.html#kontakt.qmd",
+    "href": "kontakt.html#kontakt.qmd",
+    "title": "kontakt",
+    "section": "📄 kontakt.qmd",
+    "text": "📄 kontakt.qmd\n```markdown 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFoAUQBBAHgAQQBEAGcAQQBNAFEAQQA1AEEARABZAEEATQBBAEEAMQBBAEMAMABBAE0AQQBCAGgAQQBHAE0AQQBaAEEAQQB0AEEARABRAEEAWgBnAEIAaABBAEcAVQBBAEwAUQBBADQAQQBHAEkAQQBPAFEAQQA1AEEAQwAwAEEATwBRAEIAagBBAEQARQBBAFkAZwBBADMAQQBHAEkAQQBaAEEAQQAzAEEARwBNAEEATQBBAEIAbQBBAEQARQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEAMgBBAEEAPQA9AAoAcAByAGUAZgBpAHgAOgAKAHMAbwB1AHIAYwBlADoATABRAEEAdABBAEMAMABBAEMAZwBCADAAQQBHAGsAQQBkAEEAQgBzAEEARwBVAEEATwBnAEEAZwBBAEMASQBBAFMAdwBCAHYAQQBHADQAQQBkAEEAQgBoAEEARwBzAEEAZABBAEEAaQBBAEEAbwBBAEwAUQBBAHQAQQBDADAAQQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602"
   },
   {
     "objectID": "about.html",
@@ -21,10 +42,59 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "kontakt.html#kontakt.qmd",
-    "href": "kontakt.html#kontakt.qmd",
-    "title": "kontakt",
-    "section": "📄 kontakt.qmd",
-    "text": "📄 kontakt.qmd\n```markdown 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFoAUQBBAHgAQQBEAGcAQQBNAFEAQQA1AEEARABZAEEATQBBAEEAMQBBAEMAMABBAE0AQQBCAGgAQQBHAE0AQQBaAEEAQQB0AEEARABRAEEAWgBnAEIAaABBAEcAVQBBAEwAUQBBADQAQQBHAEkAQQBPAFEAQQA1AEEAQwAwAEEATwBRAEIAagBBAEQARQBBAFkAZwBBADMAQQBHAEkAQQBaAEEAQQAzAEEARwBNAEEATQBBAEIAbQBBAEQARQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEAMgBBAEEAPQA9AAoAcAByAGUAZgBpAHgAOgAKAHMAbwB1AHIAYwBlADoATABRAEEAdABBAEMAMABBAEMAZwBCADAAQQBHAGsAQQBkAEEAQgBzAEEARwBVAEEATwBnAEEAZwBBAEMASQBBAFMAdwBCAHYAQQBHADQAQQBkAEEAQgBoAEEARwBzAEEAZABBAEEAaQBBAEEAbwBBAEwAUQBBAHQAQQBDADAAQQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Förna – nötodling, landskap och samspel",
+    "section": "",
+    "text": "Förna\n\n\nEn förening för nötodling, skogsträdgård och levande landskap i Sankt Olof.\n\n\n\n\n\n\nOm oss\n\n\nFörna växte fram ur en vilja att förena människor, träd och ekologi i ett gemensamt lärande. På gården utanför Sankt Olof planterar vi valnöt, kastanj och hassel i ett mosaiklandskap av odling och natur. Målet är långsiktig matproduktion, biologisk mångfald och en plats som bjuder in både människor och djur.\n\n\n\n\n\nEn glimt från gården\n\n\nFölj med ut bland träden och jordhögarna – här odlas framtiden fram:\n\n\n\n\n\n\n\nVåra fokusområden\n\n\n\nEkologisk nötodling – valnöt, hassel och kastanj\n\n\nMarkvård och vattenhållande strukturer\n\n\nSkogsträdgårdsexperiment och biologisk mångfald\n\n\nÖppen kunskapsdelning och fältvandringar\n\n\n\n\n\n\nVill du veta mer?\n\n\nLäs vidare om våra produkter eller ta kontakt via vårt kontaktformulär."
+  },
+  {
+    "objectID": "NEXT_STEPS.html",
+    "href": "NEXT_STEPS.html",
+    "title": "✅ Förna-webben – Kom igång nästa gång",
+    "section": "",
+    "text": "(Senast uppdaterad: 2025-10-01)\n\n\ncd /c/atbara_landskap/f-rna\ngit status\n\n\n\ngit pull --rebase origin main\n\n\n\n\nÖppna RStudio\nVälj File → Open Project → mappen f-rna/\nKlicka på Build Website (renderar Quarto-webben)\n\n\n\n\ngit add .\ngit commit -m \"Beskriv vad du ändrat\"\ngit push origin main\n\n\n\n\nDomänen förna.se pekar via CNAME till GitHub Pages\nDNS kan ta 24–48 timmar att slå igenom\nNär det funkar → kryssa i Enforce HTTPS i GitHub\n\n\n\n\n\nLägg text/bilder i index.qmd, produkter.qmd, kontakt.qmd\nTesta nytt tema i _quarto.yml (minty, flatly…)\nFundera på att även registrera domän utan å/ö (t.ex. forna.se eller f-orna.com)"
+  },
+  {
+    "objectID": "NEXT_STEPS.html#starta-projektet",
+    "href": "NEXT_STEPS.html#starta-projektet",
+    "title": "✅ Förna-webben – Kom igång nästa gång",
+    "section": "",
+    "text": "cd /c/atbara_landskap/f-rna\ngit status"
+  },
+  {
+    "objectID": "NEXT_STEPS.html#synka-med-github",
+    "href": "NEXT_STEPS.html#synka-med-github",
+    "title": "✅ Förna-webben – Kom igång nästa gång",
+    "section": "",
+    "text": "git pull --rebase origin main"
+  },
+  {
+    "objectID": "NEXT_STEPS.html#jobba-med-webben",
+    "href": "NEXT_STEPS.html#jobba-med-webben",
+    "title": "✅ Förna-webben – Kom igång nästa gång",
+    "section": "",
+    "text": "Öppna RStudio\nVälj File → Open Project → mappen f-rna/\nKlicka på Build Website (renderar Quarto-webben)"
+  },
+  {
+    "objectID": "NEXT_STEPS.html#publicera-på-github-pages",
+    "href": "NEXT_STEPS.html#publicera-på-github-pages",
+    "title": "✅ Förna-webben – Kom igång nästa gång",
+    "section": "",
+    "text": "git add .\ngit commit -m \"Beskriv vad du ändrat\"\ngit push origin main"
+  },
+  {
+    "objectID": "NEXT_STEPS.html#custom-domain",
+    "href": "NEXT_STEPS.html#custom-domain",
+    "title": "✅ Förna-webben – Kom igång nästa gång",
+    "section": "",
+    "text": "Domänen förna.se pekar via CNAME till GitHub Pages\nDNS kan ta 24–48 timmar att slå igenom\nNär det funkar → kryssa i Enforce HTTPS i GitHub"
+  },
+  {
+    "objectID": "NEXT_STEPS.html#nästa-steg",
+    "href": "NEXT_STEPS.html#nästa-steg",
+    "title": "✅ Förna-webben – Kom igång nästa gång",
+    "section": "",
+    "text": "Lägg text/bilder i index.qmd, produkter.qmd, kontakt.qmd\nTesta nytt tema i _quarto.yml (minty, flatly…)\nFundera på att även registrera domän utan å/ö (t.ex. forna.se eller f-orna.com)"
   }
 ]
