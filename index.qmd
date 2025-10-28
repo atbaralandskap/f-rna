@@ -1,15 +1,15 @@
 ---
-title: "Förna – nötodling, landskap och samspel"
-format:
-  html:
-    toc: false
+title: "Förna – Ett växthus blir matskog"
+format: html
+toc: false
 ---
+
 
 <section style="background-color:#f8f8f8; padding:3em 0; text-align:center; border-radius:8px;">
   <img src="bilder/förna_logga.jpg" width="160" style="border-radius:50%; margin-bottom:1em;">
   <h1 style="font-size:2.2em; margin-bottom:0.2em;">Förna</h1>
   <p style="font-size:1.2em; color:#444; max-width:600px; margin:auto;">
-    En förening för nötodling, skogsträdgård och levande landskap i Sankt Olof.
+    En rörelse för nötodling i Bästekille.
   </p>
 </section>
 
@@ -19,17 +19,20 @@ format:
   <img src="bilder/sjörövar_fabbe.jpg" width="240" style="border-radius:12px; margin-bottom:1em;">
   <h2>Om oss</h2>
   <p style="max-width:650px; margin:auto;">
-    Förna växte fram ur en vilja att förena människor, träd och ekologi i ett gemensamt lärande.
-    På gården utanför Sankt Olof planterar vi valnöt, kastanj och hassel i ett mosaiklandskap av odling och natur.
-    Målet är långsiktig matproduktion, biologisk mångfald och en plats som bjuder in både människor och djur.
+    Förna växer fram i ett 3500 kvadratmeter stort växthus utanför Bästekille – en plats som länge stod övergiven, där glasrutorna rasat och skogen krupit in.  
+    Nu förvandlas växthuset, steg för steg, till en levande matskog med valnötsträd, kastanj, hassel, bondbönor, kvitten och svamp.  
+    Projektet drivs av Fabian Ryft, som med klimatoro i ryggen och jord under naglarna odlar fram hopp, kunskap och ätbar mångfald – tillsammans med grannar och besökare.  
+    Förna är både ett odlingsexperiment och en mötesplats, där matskogar testas i liten skala för att inspirera större förändring.  
+    Det här är inte bara odling – det är en konkret handling för framtiden.
   </p>
 </section>
+
 
 ---
 
 <section style="background-color:#f4f4f4; padding:2em 0; text-align:center;">
-  <h2>En glimt från gården</h2>
-  <p>Följ med ut bland träden och jordhögarna – här odlas framtiden fram:</p>
+  <h2>En levande plats i förändring</h2>
+  <p>Följ med oss ut bland fruktträd, jordhögar och visioner – här spirar idéer, gemenskap och framtidens odlingar:</p>
   <iframe width="560" height="315"
     src="https://www.youtube.com/embed/hc6dpnGMlBA"
     title="Förna på YouTube" frameborder="0"
@@ -38,17 +41,20 @@ format:
   </iframe>
 </section>
 
+
 ---
 
 <section style="padding:2em 0; text-align:center;">
-  <h2>Våra fokusområden</h2>
+  <h2>Vad vi gör – och varför</h2>
   <ul style="display:inline-block; text-align:left; font-size:1.1em;">
-    <li>Ekologisk nötodling – valnöt, hassel och kastanj</li>
-    <li>Markvård och vattenhållande strukturer</li>
-    <li>Skogsträdgårdsexperiment och biologisk mångfald</li>
-    <li>Öppen kunskapsdelning och fältvandringar</li>
+    <li>Vi odlar ekologiska nötträd – hassel, valnöt och kastanj – för ett robust och klimatsmart matsystem.</li>
+    <li>Vi bygger upp jorden med växttäcke, svampsamarbeten och vattenhållande strukturer – att vårda marken är centralt för oss.</li>
+    <li>Vi experimenterar med skogsträdgårdar för att skapa platser rika på liv och ätbar mångfald.</li>
+    <li>Vi delar allt öppet – frön, kunskap och erfarenheter – genom fältvandringar och samtal.</li>
+    <li>Vi ser hur markens översta lager – förnan – består av dött men inte fullt nedbrutet växtmaterial, djurrester och exkrement :contentReference[oaicite:1]{index=1}. Detta lager är livsviktigt: det utgör habitat för smådjur, svampar och växter – och när det komposteras frigörs näring till jorden :contentReference[oaicite:2]{index=2}. Genom vårt arbete strävar vi efter att stärka och bevara den här naturliga processen i våra odlingssystem.</li>
   </ul>
 </section>
+
 
 ---
 

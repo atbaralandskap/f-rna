@@ -3,14 +3,14 @@ title: "kontakt"
 ---
 
 ------------------------------------------------------------------------
+## Beställning & kontakt
 
-## 📄 kontakt.qmd
+Har du en fråga, vill boka träd eller snacka plantering?  
+Skicka ett meddelande eller slå en signal: **0766-148318**  
 
-\`\`\`markdown 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AFoAUQBBAHgAQQBEAGcAQQBNAFEAQQA1AEEARABZAEEATQBBAEEAMQBBAEMAMABBAE0AQQBCAGgAQQBHAE0AQQBaAEEAQQB0AEEARABRAEEAWgBnAEIAaABBAEcAVQBBAEwAUQBBADQAQQBHAEkAQQBPAFEAQQA1AEEAQwAwAEEATwBRAEIAagBBAEQARQBBAFkAZwBBADMAQQBHAEkAQQBaAEEAQQAzAEEARwBNAEEATQBBAEIAbQBBAEQARQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEAMgBBAEEAPQA9AAoAcAByAGUAZgBpAHgAOgAKAHMAbwB1AHIAYwBlADoATABRAEEAdABBAEMAMABBAEMAZwBCADAAQQBHAGsAQQBkAEEAQgBzAEEARwBVAEEATwBnAEEAZwBBAEMASQBBAFMAdwBCAHYAQQBHADQAQQBkAEEAQgBoAEEARwBzAEEAZABBAEEAaQBBAEEAbwBBAEwAUQBBAHQAQQBDADAAQQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602
+**Betalning?** Det löser vi på plats – kontant, Swish eller faktura.  
 
-# Kontakt
+📍 **Hitta hit:** Bästekille Oraväg 17, Kivik  
+Kom förbi om du vill snacka nötter, rötter eller drömmen om ett ätbart landskap.
 
--   📧 E-post: [info\@forna.se](mailto:info@forna.se)\
--   📍 Adress: Här fyller ni i föreningens adress
 
-Skriv gärna instruktioner om hur man beställer produkter.
