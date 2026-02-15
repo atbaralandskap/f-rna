@@ -1,4 +1,4 @@
-project:
+﻿project:
   type: website
   output-dir: docs   # Byggs direkt till en mapp som GitHub Pages gillar
 
@@ -19,3 +19,4 @@ format:
     theme: cosmo       # Bootstrap-tema, byt gärna till "minty", "flatly", osv.
     css: styles.css    # Din egen CSS (valfritt)
     toc: false         # Ingen innehållsförteckning i sidokolumnen
+

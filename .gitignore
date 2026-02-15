@@ -8,6 +8,7 @@
 _site/
 .quarto/_freeze/
 .quarto/preview/
+.quarto/
 
 # OS
 .DS_Store
@@ -15,3 +16,5 @@ Thumbs.db
 
 
 /.quarto/
+
+**/*.quarto_ipynb

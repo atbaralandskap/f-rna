@@ -1,4 +1,4 @@
----
+﻿---
 title: "kontakt"
 ---
 
@@ -12,5 +12,6 @@ Skicka ett meddelande eller slå en signal: **0766-148318**
 
 📍 **Hitta hit:** Bästekille Oraväg 17, Kivik  
 Kom förbi om du vill snacka nötter, rötter eller drömmen om ett ätbart landskap.
+
 
 
