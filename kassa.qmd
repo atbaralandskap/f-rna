@@ -1,0 +1,36 @@
+---
+title: "Varukorg"
+---
+
+```{=html}
+<link rel="stylesheet" href="assets/css/shop.css">
+```
+
+## Din varukorg
+
+```{=html}
+<section class="shop-layout">
+  <article class="shop-card">
+    <ul id="cart-items" class="cart-list"></ul>
+    <p id="cart-empty">Varukorgen är tom.</p>
+  </article>
+
+  <article class="shop-card">
+    <h2>Kassa</h2>
+    <form id="checkout-form" class="checkout-form">
+      <label>
+        Namn
+        <input name="name" type="text" autocomplete="name" required>
+      </label>
+      <label>
+        E-post
+        <input name="email" type="email" autocomplete="email" required>
+      </label>
+      <button type="submit">Skicka beställning</button>
+    </form>
+  </article>
+</section>
+
+<script type="module" src="assets/js/cart.js"></script>
+<script type="module" src="assets/js/checkout.js"></script>
+```

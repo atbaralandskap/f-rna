@@ -1,0 +1,33 @@
+.shop-layout {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.shop-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background: #fff;
+}
+
+.cart-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.checkout-form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.checkout-form label {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.checkout-form button {
+  justify-self: start;
+}

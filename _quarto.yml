@@ -13,6 +13,8 @@ website:
         text: Produkter
       - href: kontakt.qmd
         text: Kontakt
+      - href: kassa.qmd
+        text: Varukorg
 
 format:
   html:
