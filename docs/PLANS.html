@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>next_steps – Förna</title>
+<title>plans – Förna</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -159,46 +124,114 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="förna-webben-kom-igång-nästa-gång" class="level1">
-<h1>✅ Förna-webben – Kom igång nästa gång</h1>
-<p><em>(Senast uppdaterad: 2025-10-01)</em></p>
-<section id="starta-projektet" class="level2">
-<h2 class="anchored" data-anchor-id="starta-projektet">1. Starta projektet</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /c/atbara_landskap/f-rna</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="plans" class="level1">
+<h1>PLANS</h1>
+<section id="goal" class="level2">
+<h2 class="anchored" data-anchor-id="goal">Goal</h2>
+<p>Build a tree-ordering flow with a shopping cart and email-based checkout, where customers pay on pickup.</p>
 </section>
-<section id="synka-med-github" class="level2">
-<h2 class="anchored" data-anchor-id="synka-med-github">2. Synka med GitHub</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull <span class="at">--rebase</span> origin main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="jobba-med-webben" class="level2">
-<h2 class="anchored" data-anchor-id="jobba-med-webben">3. Jobba med webben</h2>
+<section id="scope" class="level2">
+<h2 class="anchored" data-anchor-id="scope">Scope</h2>
 <ul>
-<li>Öppna <strong>RStudio</strong></li>
-<li>Välj <strong>File → Open Project → mappen <code>f-rna/</code></strong></li>
-<li>Klicka på <strong>Build Website</strong> (renderar Quarto-webben)</li>
+<li>Website remains static (Quarto + GitHub Pages)</li>
+<li>No online payment gateway</li>
+<li>Orders are sent by email and confirmed manually</li>
 </ul>
 </section>
-<section id="publicera-på-github-pages" class="level2">
-<h2 class="anchored" data-anchor-id="publicera-på-github-pages">4. Publicera på GitHub Pages</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Beskriv vad du ändrat"</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="custom-domain" class="level2">
-<h2 class="anchored" data-anchor-id="custom-domain">5. Custom domain</h2>
+<section id="implementation-plan" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-plan">Implementation Plan</h2>
+<ol type="1">
+<li>Define product data model</li>
+</ol>
 <ul>
-<li>Domänen <code>förna.se</code> pekar via CNAME till GitHub Pages</li>
-<li>DNS kan ta 24–48 timmar att slå igenom</li>
-<li>När det funkar → kryssa i <strong>Enforce HTTPS</strong> i GitHub</li>
+<li>Create <code>data/products.json</code> as single source of truth</li>
+<li>Fields: <code>id</code>, <code>name</code>, <code>size</code>, <code>price_sek</code>, <code>stock</code>, <code>image</code></li>
+</ul>
+<ol start="2" type="1">
+<li>Add cart actions on products page</li>
+</ol>
+<ul>
+<li>Update <code>produkter.qmd</code> with “Add to cart” buttons</li>
+<li>Use JavaScript with <code>localStorage</code> to persist cart</li>
+<li>Show cart item count in page header/nav</li>
+</ul>
+<ol start="3" type="1">
+<li>Build checkout page</li>
+</ol>
+<ul>
+<li>Implement <code>kassa.qmd</code> as full cart/checkout UI</li>
+<li>Support quantity updates and item removal</li>
+<li>Calculate subtotal and total in SEK</li>
+</ul>
+<ol start="4" type="1">
+<li>Add customer order form</li>
+</ol>
+<ul>
+<li>Required fields: name, phone, email</li>
+<li>Optional fields: preferred pickup date/time, note</li>
+<li>Show clear text: “Payment is made on pickup”</li>
+</ul>
+<ol start="5" type="1">
+<li>Connect email order delivery</li>
+</ol>
+<ul>
+<li>Integrate a form backend (e.g.&nbsp;Formspree/Getform/Web3Forms)</li>
+<li>Send structured order details by email:
+<ul>
+<li>order id</li>
+<li>customer info</li>
+<li>line items</li>
+<li>total amount</li>
+<li>pickup preference</li>
+</ul></li>
+</ul>
+<ol start="6" type="1">
+<li>Add validation and anti-spam</li>
+</ol>
+<ul>
+<li>Client-side validation for required fields and format</li>
+<li>Add honeypot field and submission throttling where possible</li>
+</ul>
+<ol start="7" type="1">
+<li>Add confirmation state</li>
+</ol>
+<ul>
+<li>After submit: show success confirmation with next steps</li>
+<li>Clear cart only after successful submission</li>
+</ul>
+<ol start="8" type="1">
+<li>Update contact page copy</li>
+</ol>
+<ul>
+<li>Update <code>kontakt.qmd</code> to reflect pickup + on-site payment flow</li>
+<li>Keep phone/manual ordering option as fallback</li>
+</ul>
+<ol start="9" type="1">
+<li>QA and publish</li>
+</ol>
+<ul>
+<li>Test full flow on desktop and mobile</li>
+<li>Test edge cases: empty cart, invalid email, network failure</li>
+<li>Render site and push to GitHub Pages</li>
 </ul>
 </section>
-<section id="nästa-steg" class="level2">
-<h2 class="anchored" data-anchor-id="nästa-steg">6. Nästa steg</h2>
+<section id="acceptance-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="acceptance-criteria">Acceptance Criteria</h2>
 <ul>
-<li>Lägg text/bilder i <code>index.qmd</code>, <code>produkter.qmd</code>, <code>kontakt.qmd</code></li>
-<li>Testa nytt tema i <code>_quarto.yml</code> (<code>minty</code>, <code>flatly</code>…)</li>
-<li>Fundera på att även registrera domän utan å/ö (t.ex. <code>forna.se</code> eller <code>f-orna.com</code>)</li>
+<li>Customer can add/remove/update tree items in cart</li>
+<li>Checkout sends a complete order email to site owner</li>
+<li>Payment is explicitly “on pickup” in UI and email</li>
+<li>Cart persists between page reloads</li>
+<li>Flow works on both desktop and mobile</li>
+</ul>
+</section>
+<section id="nice-to-have-after-mvp" class="level2">
+<h2 class="anchored" data-anchor-id="nice-to-have-after-mvp">Nice-to-Have (After MVP)</h2>
+<ul>
+<li>Inventory-aware UX (“low stock” / “sold out”)</li>
+<li>Lightweight order number generation with timestamp</li>
+<li>Swedish copy polish and UTF-8 cleanup across pages</li>
+<li>Admin-friendly CSV copy of each order in email body</li>
 </ul>
 
 

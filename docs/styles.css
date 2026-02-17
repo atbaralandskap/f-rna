@@ -1,4 +1,73 @@
-/* Grid för produkterna */
+﻿/* Earthy palette inspired by the reference photo + subtle tattoo-like pattern */
+:root {
+  --forna-bg: #d7d0bf;
+  --forna-ink: #2d2a24;
+  --forna-header: #384534;
+  --forna-header-hover: #4b5a45;
+  --forna-accent: #6b5a42;
+  --forna-card: #ece5d7;
+  --forna-border: #bcae98;
+}
+
+body {
+  color: var(--forna-ink);
+  background-color: var(--forna-bg);
+  /* Layered geometric pattern to echo tattoo linework */
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      rgba(58, 47, 35, 0.06) 0,
+      rgba(58, 47, 35, 0.06) 1px,
+      transparent 1px,
+      transparent 16px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(58, 47, 35, 0.04) 0,
+      rgba(58, 47, 35, 0.04) 1px,
+      transparent 1px,
+      transparent 16px
+    );
+}
+
+.navbar,
+.navbar.navbar-expand-lg {
+  background-color: var(--forna-header) !important;
+  border-bottom: 1px solid rgba(236, 229, 215, 0.25);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .navbar-text {
+  color: #f1ede4 !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #ffffff !important;
+  background-color: var(--forna-header-hover);
+  border-radius: 6px;
+}
+
+a {
+  color: #4f6048;
+}
+
+a:hover,
+a:focus {
+  color: #384534;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2f382b;
+}
+
+/**** Product grid ****/
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -6,13 +75,13 @@
   margin-top: 1rem;
 }
 
-/* Kort-stil */
+/**** Card style ****/
 .card {
-  border: 1px solid #e7e7e7;
+  border: 1px solid var(--forna-border);
   border-radius: 12px;
   padding: 1rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(44, 35, 24, 0.12);
+  background-color: var(--forna-card);
 }
 
 .card h3 {
@@ -27,6 +96,7 @@
 .pris {
   font-weight: 600;
   margin: 0.4rem 0;
+  color: var(--forna-accent);
 }
 
 .status {
@@ -34,16 +104,15 @@
 }
 
 .status.lager {
-  color: #0a7f2e; /* grön */
+  color: #3f6338;
 }
 
 .status.slut {
-  color: #a11616; /* röd */
+  color: #7f2f2f;
 }
 
-/* Liten tonad text */
 .footer-note {
   font-size: 0.9rem;
-  opacity: 0.7;
+  opacity: 0.78;
   margin-top: 1rem;
 }
