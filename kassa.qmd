@@ -11,22 +11,40 @@ title: "Varukorg"
 ```{=html}
 <section class="shop-layout">
   <article class="shop-card">
+    <h2>Varor</h2>
     <ul id="cart-items" class="cart-list"></ul>
-    <p id="cart-empty">Varukorgen är tom.</p>
+    <p id="cart-empty" class="cart-empty">Varukorgen är tom.</p>
+    <p id="cart-total" class="cart-total">Totalt: 0 kr</p>
+    <p class="shop-note">Betalning sker vid upphämtning.</p>
   </article>
 
   <article class="shop-card">
-    <h2>Kassa</h2>
+    <h2>Köp</h2>
+    <p class="shop-note">När du trycker på Köp får du ett mejl med din beställning. Fabian återkommer med datum för upphämtning i Bästekille i växthuset.</p>
+
     <form id="checkout-form" class="checkout-form">
       <label>
         Namn
         <input name="name" type="text" autocomplete="name" required>
       </label>
+
       <label>
         E-post
         <input name="email" type="email" autocomplete="email" required>
       </label>
-      <button type="submit">Skicka beställning</button>
+
+      <label>
+        Telefon
+        <input name="phone" type="tel" autocomplete="tel" placeholder="Frivilligt">
+      </label>
+
+      <label>
+        Meddelande
+        <textarea name="note" rows="3" placeholder="Frivilligt"></textarea>
+      </label>
+
+      <button id="checkout-submit" type="submit">Köp</button>
+      <p id="checkout-message" class="checkout-message" role="status" aria-live="polite"></p>
     </form>
   </article>
 </section>

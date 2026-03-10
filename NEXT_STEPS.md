@@ -34,4 +34,7 @@ git push origin main
 - Testa nytt tema i `_quarto.yml` (`minty`, `flatly`…)
 - Fundera på att även registrera domän utan å/ö (t.ex. `forna.se` eller `f-orna.com`)
 
+## 7. förbättringar
+- lägga till en kalender Förna samskapardagar
+
 

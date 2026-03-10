@@ -1,7 +1,12 @@
 ﻿project:
   type: website
   output-dir: docs   # Byggs direkt till en mapp som GitHub Pages gillar
-
+  resources:
+    - CNAME
+  render:
+    - "*.qmd"
+    - NEXT_STEPS.md
+    - PLANS.md
 
 website:
   title: "Förna"
@@ -21,4 +26,3 @@ format:
     theme: cosmo       # Bootstrap-tema, byt gärna till "minty", "flatly", osv.
     css: styles.css    # Din egen CSS (valfritt)
     toc: false         # Ingen innehållsförteckning i sidokolumnen
-
