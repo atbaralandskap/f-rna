@@ -1,0 +1,57 @@
+---
+title: "Samarbetspartners"
+---
+
+::: {.page-intro}
+# Samarbetspartners
+
+Förna byggs inte ensam. Vi samarbetar med odlare, konstnärer, förädlare, skolor, coacher och lokala initiativ som stärker verksamheten på olika sätt.
+:::
+
+::: {.info-grid}
+::: {.info-card}
+## Atelje Alma
+
+Sebastian Quick sköter delar av vår grafiska design, inreder husvagnen Älgbo på Förna och är en jämställd partner i vår mustproduktion och försäljning.
+:::
+::: {.info-card}
+## GISLab.se
+
+GISLab.se har skapat denna hemsida med opensource verktyg och en megaduktig AI-agent, och är själv odlare med en ung matskog i Tåghusa, St Olof.
+:::
+::: {.info-card}
+## I goda äpplens lag
+
+Dave Hugget, Jonatan Beech och Ida Andersson utgår från Malmö och mustar, pastöriserar och förpackar äpplen. Tillsammans har vi räddat omkring sju ton äpplen och producerat cirka 4000 liter must från övergivna odlingar runt Bästekille.
+:::
+::: {.info-card}
+## Holma folkhögskola
+
+En viktig kunskaps- och erfarenhetsmiljö för perenn odling och omställning. Där har vi gått flera kurser och idag tar vi emot praktikanter, studiebesök och kortkurser tillsammans.
+:::
+::: {.info-card}
+## Fimblo Consulting AB
+
+Mathias Kvarnström coachar oss i arbetsledning och hjälper oss att göra visionen tydligare. Anna Kvarnström är en del av teamet i de annuella odlingarna och vår Tomato Queen.
+:::
+::: {.info-card}
+## Gylleboverket
+
+Jona och Etta Säfve driver en kulturplattform i Östra Vemmerlöv och delar med sig av växtmaterial, vägledning och inspiration från sin boplats Båt i skogen.
+:::
+::: {.info-card}
+## Biosfärföreningen Österlen
+
+Vi ingår i ett samverkansavtal med ett gemensamt mål om att Österlen ska bli ett biosfärområde certifierat av Unesco.
+:::
+::: {.info-card}
+## Framtidskultur i Halland AB
+
+Göran och Marijke Christiansson har bidragit till uppstarten av vår plantskola med både kunskap och växtmaterial, särskilt kring nötträd.
+:::
+::: {.info-card}
+## Gränslösa Gård
+
+Zaio Hellgren hittade växthuset vi nu arrenderar och såg under första säsongen till att vi fick finansiering från Europeiska solidaritetskåren. Han är fortsatt delaktig i det praktiska arbetet på Förna.
+:::
+:::

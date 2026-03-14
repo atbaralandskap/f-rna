@@ -1,0 +1,64 @@
+---
+title: "Tjänster"
+---
+
+::: {.page-intro}
+# Tjänster
+
+Alla våra tjänster kostar `400 kr/h per arbetare`. Vi använder även `RUT-avdrag` där det är möjligt och är registrerade för `F-skatt`.
+:::
+
+::: {.notice-box}
+Med RUT-avdrag betalar du som kund `50 %` av arbetskostnaden inklusive moms. Vi erbjuder också kostnadsfri konsultering i upp till två timmar för att känna efter om vi är rätt för varandra. Framkörningsavgift tillkommer om du befinner dig mer än fem mil från Bästekille.
+:::
+
+::: {.split-grid}
+::: {.content-card}
+## Etablering och nyplantering
+
+### Arbetskraft och vägledning
+
+För dig som vill etablera perenna odlingssystem på mark som du i framtiden vill kunna bruka helt eller delvis själv. Vi kan vara bollplank, extra armar och ben och ett långsiktigt stöd medan både du och odlingarna växer.
+
+I detta format anlitar du oss efter behov. Ibland handlar det om en knuff i rätt riktning och ibland om praktisk hjälp i utförandet.
+:::
+::: {.content-card}
+## Arrende och förvaltning
+
+För dig som har mark men inte vill eller kan bruka den själv och ändå vill berika platsen med ett perennt odlingssystem. Då utformar vi odlingen efter Förnas behov i samråd med dig som markägare och tar fram ett avtal som fungerar för båda parter.
+
+Exempelvis kan ni som markägare plocka bär, frukt och nötter för husbehov medan vi förvaltar och skördar resten till förädling och försäljning. Eftersom sådana avtal ännu inte har etablerade mallar blir både ni och vi pionjärer i ett nytt sätt att bedriva jordbruk.
+:::
+:::
+
+::: {.info-grid}
+::: {.info-card}
+## Trädfällning och beskärning
+
+- Trädfällning i skog, mark och trädgårdar
+- Bortforsling av ris och stock eller kapning av ved på plats
+- Beskärning av träd och buskar
+- Övrigt röj, körning till tippen, iordningställande och odlingsbäddar
+:::
+::: {.info-card}
+## Anläggning av rishäck
+
+Rishäckar hjälper dig att sluta trädgårdens kretslopp, skapa habitat för smådjur, insekter, svampar och lavar och ta tillvara grenar, sly och stock istället för att köra bort dem.
+
+Vi bygger strukturen av återbrukade stålrör från växthuset i Bästekille och anpassar form, estetik och funktion i samråd med kund.
+:::
+:::
+
+::: {.section-block}
+## Prisexempel för rishäck
+
+- Låg, `1 m` hög: `500 kr` första metern, därefter `250 kr/m`
+- Mellan, `1,5 m` hög: `700 kr` första metern, därefter `350 kr/m`
+- Hög, `1,8 m` hög: `1000 kr` första metern, därefter `500 kr/m`
+
+Livslängden varierar beroende på luftfuktighet och jordart. I bästa fall kan strukturen stå upp till 25 år, i andra fall närmare 10 år.
+:::
+
+::: {.feature-photo}
+![Praktiskt arbete på Förna](bilder/Fieldwork_1.20.1.jpg){width=100% fig-alt="Praktiskt arbete på Förna"}
+:::

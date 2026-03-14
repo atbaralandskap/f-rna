@@ -42,60 +42,375 @@
     "text": "Inventory-aware UX (“low stock” / “sold out”)\nLightweight order number generation with timestamp\nSwedish copy polish and UTF-8 cleanup across pages\nAdmin-friendly CSV copy of each order in email body"
   },
   {
-    "objectID": "produkter.html#våra-träd",
-    "href": "produkter.html#våra-träd",
-    "title": "Våra produkter",
-    "section": "Våra träd",
-    "text": "Våra träd\n\n\n Juglans 15 cm\nSmå valnötsträd – redo att sätta fart.\n\n\n Juglans 90 cm\nRejäla ettåringar med drag i stammen.\n\n\n Castanea sativa\nKraftfulla kastanjplantor från Baskemölla.\n\n\n Juglans regia\nValnötsträd som växer där framtiden gror."
+    "objectID": "uppdrag.html",
+    "href": "uppdrag.html",
+    "title": "Vårt uppdrag",
+    "section": "",
+    "text": "Förna är vår utgångspunkt, men arbetet sträcker sig längre än platsen där vi står idag."
   },
   {
-    "objectID": "produkter.html#äkta-valnöt-juglans-regia",
-    "href": "produkter.html#äkta-valnöt-juglans-regia",
-    "title": "Våra produkter",
-    "section": "Äkta valnöt (Juglans regia)",
-    "text": "Äkta valnöt (Juglans regia)\n\n\n\nValnötsträd i odlingen\n\n\nVi jobbar med naturlig selektion av valnötsträd – direkt från Professorstaden i Lund.\nVarje nöt är handplockad för att få fram starka träd med bred genetisk bas och goda framtidsutsikter.\nTräden levereras barrotade – för att ge rötterna bästa möjliga start.\nPlantera när du vill (så länge marken inte är frusen).\n\nPrislista – Äkta valnöt\n\n  \n\n\n\n\n\n\n\n\nStorlek\nPris\nLägg i varukorg\n\n\n\n\n5+ cm\n50 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n10+ cm\n100 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n20+ cm\n150 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n30+ cm\n200 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n40+ cm\n250 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n50+ cm\n300 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n60+ cm\n350 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n70+ cm\n400 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n80+ cm\n450 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n90+ cm\n500 kr\n\n\n-\n\n\n0\n\n\n+"
+    "objectID": "uppdrag.html#perenna-odlingssystem",
+    "href": "uppdrag.html#perenna-odlingssystem",
+    "title": "Vårt uppdrag",
+    "section": "Perenna odlingssystem",
+    "text": "Perenna odlingssystem\nVi vill kunna arrendera mark som idag inte brukas, eller mark som behöver diversifieras, och agera som förvaltare av dessa ytor. I dag finns ingen självklar avtalsmall för arrenden av perenna system, vilket betyder att de som vill gå in i sådana samarbeten är med och formar något nytt tillsammans med oss.\nVi arbetar med matskogar, skogsträdgårdar och alléodlingar, och med alla de moment som krävs i ett perennt odlingssystem: observation, planering, plantering, etablering, skötsel och skörd."
   },
   {
-    "objectID": "produkter.html#äkta-kastanj-castanea-sativa",
-    "href": "produkter.html#äkta-kastanj-castanea-sativa",
-    "title": "Våra produkter",
-    "section": "Äkta kastanj (Castanea sativa)",
-    "text": "Äkta kastanj (Castanea sativa)\n\n\n\nKastanjplantor i Baskemölla\n\n\nKastanjerna kommer från Baskemölla – ett havsnära fröparadis.\nVi väljer varje nöt för hand och låter naturen styra urvalet. Målet? Träd med livskraft, variation och edge.\nSjälvklart säljs även kastanjerna barrotade – för maximalt tryck i tillväxten.\n\nPrislista – Äkta kastanj\n\n  \n\n\n\n\n\n\n\n\nStorlek\nPris\nLägg i varukorg\n\n\n\n\n5+ cm\n100 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n10+ cm\n150 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n15+ cm\n200 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n20+ cm\n250 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n30+ cm\n300 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n40+ cm\n350 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n50+ cm\n400 kr\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\n60+ cm\n450 kr\n\n\n-\n\n\n0\n\n\n+"
+    "objectID": "uppdrag.html#varför-perennt-jordbruk",
+    "href": "uppdrag.html#varför-perennt-jordbruk",
+    "title": "Vårt uppdrag",
+    "section": "Varför perennt jordbruk",
+    "text": "Varför perennt jordbruk\nI perenna odlingssystem samverkar nöt- och fruktträd, bärbuskar, läkeörter, klätterväxter, svampar och djurliv i flera skikt. När vi börjar bruka mer högväxande arter för livsmedel kan vi nyttja mer av solens strålar, nå djupare lager av vatten och mineraler och skapa en mer resilient matproduktion.\nDet handlar inte bara om fler grödor, utan också om fler arbetsuppgifter, fler människor i landskapet och fler vägar in i jordbruket."
   },
   {
-    "objectID": "kassa.html#din-varukorg",
-    "href": "kassa.html#din-varukorg",
+    "objectID": "uppdrag.html#fröer-jord-och-vatten",
+    "href": "uppdrag.html#fröer-jord-och-vatten",
+    "title": "Vårt uppdrag",
+    "section": "Fröer, jord och vatten",
+    "text": "Fröer, jord och vatten\nGenom plantskolan sprider vi växtmaterial anpassat för framtidens klimat och landskap. Mycket av materialet driver vi upp från frö, vilket ger nya sorter möjlighet att ta form i dagens förhållanden.\nHälsosamma människor börjar med hälsosam mat, som börjar i hälsosam jord. Hälsosam jord byggs av levande rötter, mykorrhiza, nedbrytarsvampar, mull, syre och lokalt grundvatten. Perenna system är vårt verktyg för att stötta den processen.\nDjupa rötter och stora växter hjälper till att flytta vatten genom landskapet. I förlängningen tror vi att sådana system kan bidra till mer nederbörd och tryggare vattentillgång i framtiden."
+  },
+  {
+    "objectID": "uppdrag.html#odlingssystem-vi-arbetar-med",
+    "href": "uppdrag.html#odlingssystem-vi-arbetar-med",
+    "title": "Vårt uppdrag",
+    "section": "Odlingssystem vi arbetar med",
+    "text": "Odlingssystem vi arbetar med\n\nMatskog eller skogsträdgård\nHär samverkar nöt- och fruktträd, bärbuskar, örter, klätterväxter, svampar och djurliv i flera skikt. I skogsbrynen börjar vi med högväxta örter, därefter mindre bärbuskar, större bärbuskar, fruktträd och till sist större träd med klätterväxter.\nInnanför skogsbrynet planteras beståndsbildande träd, till exempel äkta kastanj för livsmedel eller andra virkesträd. Skillnaden mellan matskog och skogsträdgård är främst skalan.\n\n\nAlléodlingar\nEn alléodling är ett samlingsbegrepp för perenn odling i raka rader. Samma arter som i en matskog kan användas, men strukturen gör odlingen lättare att förvalta och skörda rationellt. Mellan raderna kan vi odla spannmål, grönsaker, vall eller ha betesdjur.\nI båda typerna av system arbetar vi mot en skogsbrynseffekt, eftersom skogsbrynet är en av landskapets mest artrika miljöer och en plats där solljuset kan utnyttjas effektivt."
+  },
+  {
+    "objectID": "samskapardagar.html",
+    "href": "samskapardagar.html",
+    "title": "Förna samskapardagar",
+    "section": "",
+    "text": "En dag i månaden bjuder vi in till praktiska arbetsuppgifter, lunch, fika och gemenskap på Förna."
+  },
+  {
+    "objectID": "samskapardagar.html#syfte",
+    "href": "samskapardagar.html#syfte",
+    "title": "Förna samskapardagar",
+    "section": "Syfte",
+    "text": "Syfte\n\nVi vill stärka banden mellan konsument och producent, men också mellan människor i stort.\nVi tror att jordbruket kan fungera som en bro i en tid där avståndet mellan människor ofta känns stort.\nVi vill lyfta vikten av levande landskap, god mat och hälsosamma relationer till våra grannar och medmänniskor."
+  },
+  {
+    "objectID": "samskapardagar.html#vision",
+    "href": "samskapardagar.html#vision",
+    "title": "Förna samskapardagar",
+    "section": "Vision",
+    "text": "Vision\nVi vill göra handfasta miljö- och klimataktioner tillsammans med er. Politiker, banker och industri gör sitt, men vi vill också kunna göra något konkret här och nu för klimatet, miljön och framtiden för barnen.\nVi har tillgång till stora mängder frukt- och nötträd, bärbuskar och perenner som vi vill få ut i landskapet i så stor omfattning som möjligt."
+  },
+  {
+    "objectID": "samskapardagar.html#format",
+    "href": "samskapardagar.html#format",
+    "title": "Förna samskapardagar",
+    "section": "Format",
+    "text": "Format\n\nVi möts vanligtvis på Förna, Bästekille Oraväg 17, 277 35 Kivik.\nOfficiell tid är oftast 10:00-16:00, vanligen på en söndag.\nFörberedelser sker dagen innan och då är man också välkommen.\nVi anpassar uppgifterna efter person och förmåga, och arbete är inget krav.\nVi bjuder på soppa, bröd, pålägg, kaffe, te och tilltugg.\nTa gärna med arbetshandskar, skål och sked till soppan.\nFöranmälan är inte ett krav, men hjälper oss att planera maten.\nMiljön kan vara fysiskt krävande med glas, eld och verktyg, så barn behöver hållas under uppsikt."
+  },
+  {
+    "objectID": "samskapardagar.html#kommande-evenemang",
+    "href": "samskapardagar.html#kommande-evenemang",
+    "title": "Förna samskapardagar",
+    "section": "Kommande evenemang",
+    "text": "Kommande evenemang\nKommande datum är ännu inte publicerade. Hör av dig till Fabian om du vill bli uppdaterad när nästa samskapardag annonseras."
+  },
+  {
+    "objectID": "partners.html",
+    "href": "partners.html",
+    "title": "Samarbetspartners",
+    "section": "",
+    "text": "Förna byggs inte ensam. Vi samarbetar med odlare, konstnärer, förädlare, skolor, coacher och lokala initiativ som stärker verksamheten på olika sätt."
+  },
+  {
+    "objectID": "partners.html#atelje-alma",
+    "href": "partners.html#atelje-alma",
+    "title": "Samarbetspartners",
+    "section": "Atelje Alma",
+    "text": "Atelje Alma\nSebastian Quick sköter delar av vår grafiska design, inreder husvagnen Älgbo på Förna och är en jämställd partner i vår mustproduktion och försäljning."
+  },
+  {
+    "objectID": "partners.html#gislab.se",
+    "href": "partners.html#gislab.se",
+    "title": "Samarbetspartners",
+    "section": "GISLab.se",
+    "text": "GISLab.se\nGISLab.se har skapat denna hemsida med opensource verktyg och en megaduktig AI-agent, och är själv odlare med en ung matskog i Tåghusa, St Olof."
+  },
+  {
+    "objectID": "partners.html#i-goda-äpplens-lag",
+    "href": "partners.html#i-goda-äpplens-lag",
+    "title": "Samarbetspartners",
+    "section": "I goda äpplens lag",
+    "text": "I goda äpplens lag\nDave Hugget, Jonatan Beech och Ida Andersson utgår från Malmö och mustar, pastöriserar och förpackar äpplen. Tillsammans har vi räddat omkring sju ton äpplen och producerat cirka 4000 liter must från övergivna odlingar runt Bästekille."
+  },
+  {
+    "objectID": "partners.html#holma-folkhögskola",
+    "href": "partners.html#holma-folkhögskola",
+    "title": "Samarbetspartners",
+    "section": "Holma folkhögskola",
+    "text": "Holma folkhögskola\nEn viktig kunskaps- och erfarenhetsmiljö för perenn odling och omställning. Där har vi gått flera kurser och idag tar vi emot praktikanter, studiebesök och kortkurser tillsammans."
+  },
+  {
+    "objectID": "partners.html#fimblo-consulting-ab",
+    "href": "partners.html#fimblo-consulting-ab",
+    "title": "Samarbetspartners",
+    "section": "Fimblo Consulting AB",
+    "text": "Fimblo Consulting AB\nMathias Kvarnström coachar oss i arbetsledning och hjälper oss att göra visionen tydligare. Anna Kvarnström är en del av teamet i de annuella odlingarna och vår Tomato Queen."
+  },
+  {
+    "objectID": "partners.html#gylleboverket",
+    "href": "partners.html#gylleboverket",
+    "title": "Samarbetspartners",
+    "section": "Gylleboverket",
+    "text": "Gylleboverket\nJona och Etta Säfve driver en kulturplattform i Östra Vemmerlöv och delar med sig av växtmaterial, vägledning och inspiration från sin boplats Båt i skogen."
+  },
+  {
+    "objectID": "partners.html#biosfärföreningen-österlen",
+    "href": "partners.html#biosfärföreningen-österlen",
+    "title": "Samarbetspartners",
+    "section": "Biosfärföreningen Österlen",
+    "text": "Biosfärföreningen Österlen\nVi ingår i ett samverkansavtal med ett gemensamt mål om att Österlen ska bli ett biosfärområde certifierat av Unesco."
+  },
+  {
+    "objectID": "partners.html#framtidskultur-i-halland-ab",
+    "href": "partners.html#framtidskultur-i-halland-ab",
+    "title": "Samarbetspartners",
+    "section": "Framtidskultur i Halland AB",
+    "text": "Framtidskultur i Halland AB\nGöran och Marijke Christiansson har bidragit till uppstarten av vår plantskola med både kunskap och växtmaterial, särskilt kring nötträd."
+  },
+  {
+    "objectID": "partners.html#gränslösa-gård",
+    "href": "partners.html#gränslösa-gård",
+    "title": "Samarbetspartners",
+    "section": "Gränslösa Gård",
+    "text": "Gränslösa Gård\nZaio Hellgren hittade växthuset vi nu arrenderar och såg under första säsongen till att vi fick finansiering från Europeiska solidaritetskåren. Han är fortsatt delaktig i det praktiska arbetet på Förna."
+  },
+  {
+    "objectID": "kassa.html",
+    "href": "kassa.html",
     "title": "Varukorg",
-    "section": "Din varukorg",
-    "text": "Din varukorg\n\n  \n    Varor\n    \n    Varukorgen är tom.\n    Totalt: 0 kr\n    Betalning sker vid upphämtning.\n  \n\n  \n    Köp\n    När du trycker på Köp får du ett mejl med din beställning. Fabian återkommer med datum för upphämtning i Bästekille i växthuset.\n\n    \n      \n        Namn\n        \n      \n\n      \n        E-post\n        \n      \n\n      \n        Telefon\n        \n      \n\n      \n        Meddelande\n        \n      \n\n      Köp"
+    "section": "",
+    "text": "Din varukorg\nBeställningen skickas som en förfrågan via mejl eller öppnas i din mejlklient beroende på hur checkouten är konfigurerad. Fabian återkommer med datum för upphämtning i växthuset i Bästekille.\n\n  \n    Varor\n    \n    \n    Varukorgen är tom.\n    Totalt: 0 kr\n    \n      Töm varukorgen\n    \n    Betalning och leveransdetaljer bekräftas efter att beställningen kommit in.\n  \n\n  \n    Skicka beställning\n    Fyll i dina uppgifter så skickas din beställning vidare. Om något är oklart kontaktar Fabian dig före upphämtning.\n    \n\n    \n      \n        Namn\n        \n      \n\n      \n        E-post\n        \n      \n\n      \n        Telefon\n        \n      \n\n      \n        Meddelande\n        \n      \n\n      Skicka beställning"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Om oss",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Vi arbetar för jordbrukslandskap som varje år blir mer artrika, mer produktiva och mer komplexa."
+  },
+  {
+    "objectID": "about.html#se-förna-i-rörelse",
+    "href": "about.html#se-förna-i-rörelse",
+    "title": "Om oss",
+    "section": "Se Förna i rörelse",
+    "text": "Se Förna i rörelse"
+  },
+  {
+    "objectID": "about.html#människan-som-förvaltare",
+    "href": "about.html#människan-som-förvaltare",
+    "title": "Om oss",
+    "section": "Människan som förvaltare",
+    "text": "Människan som förvaltare\nNaturen strävar mot att alltid bli mer komplex. Vi är vad vi konsumerar, och när arter försvinner ur de näringskedjor vi själva är en del av förlorar vi också delar av vår egen resiliens.\nVarje gång en art saknas i den näringsväv som bär vår matproduktion saknas också något i den näring som bygger friska och välmående människor. Därför vill vi verka för jordbruk som år för år blir rikare på liv.\nVi människor är en del av ekosystemet, inte dess motpol. Det får vi lov att uppleva som jordbrukare, och det är också därför vi vill lyfta jordbruket som ett meningsfullt arbete i en tid då många söker syfte."
+  },
+  {
+    "objectID": "about.html#landsbygdens-välmående",
+    "href": "about.html#landsbygdens-välmående",
+    "title": "Om oss",
+    "section": "Landsbygdens välmående",
+    "text": "Landsbygdens välmående\nVi tror att fler människor på landsbygden är avgörande för den utveckling vi vill se. Idag försvagas landsbygden samtidigt som små lokala näringsidkare slås ut och större aktörer tar mer plats.\nStadens välmående är helt beroende av landsbygdens jordar, vatten och förvaltare. Ett levande jordbruk kräver välmående jordbrukare. Den trenden vill vi vara med och vända.\nPrecis som ekosystem behöver regenerera varje år behöver också människorna som lever och arbetar i dem göra det. Det är dags att sluta tömma landsbygden på resurser och stå upp för den lilla människan."
+  },
+  {
+    "objectID": "about.html#förna-som-plats",
+    "href": "about.html#förna-som-plats",
+    "title": "Om oss",
+    "section": "Förna som plats",
+    "text": "Förna som plats\nFörna är både en fysisk plats i Bästekille och ett långsiktigt arbete för att bygga relationer mellan jord, människor, växter och vatten. Här vill vi göra det möjligt att odla, samarbeta, lära och ta ansvar lokalt."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Förna – Ett växthus blir matskog",
+    "title": "Förna Matskogar",
     "section": "",
-    "text": "Förna\n\n\nEn rörelse för nötodling i Bästekille.\n\n\n\n\n\n\nOm oss\n\n\nFörna växer fram i ett 3500 kvadratmeter stort växthus utanför Bästekille – en plats som länge stod övergiven, där glasrutorna rasat och skogen krupit in.\nNu förvandlas växthuset, steg för steg, till en levande matskog med valnötsträd, kastanj, hassel, bondbönor, kvitten och svamp.\nProjektet drivs av Fabian Ryft, som med klimatoro i ryggen och jord under naglarna odlar fram hopp, kunskap och ätbar mångfald – tillsammans med grannar och besökare.\nFörna är både ett odlingsexperiment och en mötesplats, där matskogar testas i liten skala för att inspirera större förändring.\nDet här är inte bara odling – det är en konkret handling för framtiden.\n\n\n\n\n\nEn levande plats i förändring\n\n\nFölj med oss ut bland fruktträd, jordhögar och visioner – här spirar idéer, gemenskap och framtidens odlingar:\n\n\n\n\n\n\n\nVad vi gör – och varför\n\n\n\nVi odlar ekologiska nötträd – hassel, valnöt och kastanj – för ett robust och klimatsmart matsystem.\n\n\nVi bygger upp jorden med växttäcke, svampsamarbeten och vattenhållande strukturer – att vårda marken är centralt för oss.\n\n\nVi experimenterar med skogsträdgårdar för att skapa platser rika på liv och ätbar mångfald.\n\n\nVi delar allt öppet – frön, kunskap och erfarenheter – genom fältvandringar och samtal.\n\n\nVi ser hur markens översta lager – förnan – består av dött men inte fullt nedbrutet växtmaterial, djurrester och exkrement :contentReferenceoaicite:1. Detta lager är livsviktigt: det utgör habitat för smådjur, svampar och växter – och när det komposteras frigörs näring till jorden :contentReferenceoaicite:2. Genom vårt arbete strävar vi efter att stärka och bevara den här naturliga processen i våra odlingssystem.\n\n\n\n\n\n\nVill du veta mer?\n\n\nLäs vidare om våra produkter eller ta kontakt via vårt kontaktformulär."
+    "text": "Förna utgår från byn Bästekille, strax utanför Kivik, där vi arrenderar ett tidigare övergivet växthus sedan hösten 2023. Här bygger vi steg för steg upp en plats för plantskola, perenna odlingssystem, annuell odling och samskapande.\nSe plantskolan Kontakta oss\n\n\n\n\n\n\nVäxthusyta att återta, odla upp och förvalta tillsammans.\n\n\n\nBäddyta med droppbevattning på hela ytan.\n\n\n\nÖppna arbetsdagar med lunch, fika och praktiskt arbete.\n\n\n\n\n\nFörna drivs idag av Fabian Ryft och Gustaf Blom, men verksamheten har vuxit fram genom ett större gemensamt arbete tillsammans med vänner, familj, grannar, lokala företagare och människor som bara velat hjälpa till.\nUnder den första tiden handlade mycket om att röja undan stora mängder krossat glas, gammal plast och en hel skog som hade vuxit inne i växthuset. Sakta men säkert anpassar vi platsen efter framtida behov.\nNamnet Förna pekar mot det vi vill skapa. Förnan är lagret av löv och organiskt material som bildas under träd när en skog tar form. Den ligger i mötet mellan jord, vatten, luft och eld och är själva grunden för ett levande odlingssystem.\n\n\n\n\nVi driver en plantskola med fokus på perenna växter, nöt- och fruktträd, bärbuskar och tillbehör.\nVi erbjuder rådgivning, etablering, skötsel och förvaltning av matskogar, alléodlingar och andra fleråriga odlingssystem.\nVi odlar även annuella grödor för försäljning, eget bruk och samverkan med grannar och förädlare.\nVi bjuder in till återkommande samskapardagar där fler kan delta i upprustning, plantering, skötsel och skörd.\n\n\n\n\n\nVi ser hälsosamma landskap, levande jordar och rent vatten som grunden för mänsklig välfärd. Förna Matskogar är vårt sätt att ta ansvar lokalt för en framtid där människa och landskap regenererar tillsammans.\n\n\n\n\nVi vill bidra till att en ny bransch inom jordbruket får ta form, där fler människor kan försörja sig på att vårda landskapen och producera mat i perenna system.\nLäs mer\n\n\n\nVi arbetar med etablering, förvaltning, trädfällning, beskärning, röjning och anläggning av rishäckar.\nSe tjänster\n\n\n\nEn gång i månaden bjuder vi in till praktiskt arbete, samtal, soppa, kaffe och gemenskap på Förna.\nTill samskapardagar\n\n\n\n\n\n\n\nFrågor kring samskapardagar, trädgårdstjänster och etablering av odlingssystem.\nRing eller sms:a 0766-148318\n\n\n\nFrågor om växthuset, plantskolan och den annuella odlingen.\nRing eller sms:a 0790-183550\n\n\n\n\n\n\nFörna i Bästekille\n\n\n\n\n\n\n\n\nFörna från ovan\n\n\n\n\nVäxthuset i Bästekille är både arbetsplats, plantskola och experimentverkstad. Här syns platsen i sin helhet, mitt i landskapet som vi vill vara med och reparera och förvalta långsiktigt."
   },
   {
-    "objectID": "kontakt.html#beställning-kontakt",
-    "href": "kontakt.html#beställning-kontakt",
-    "title": "kontakt",
-    "section": "Beställning & kontakt",
-    "text": "Beställning & kontakt\nHar du en fråga, vill boka träd eller snacka plantering?\nSkicka ett meddelande eller slå en signal: 0766-148318\nBetalning? Det löser vi på plats – kontant, Swish eller faktura.\n📍 Hitta hit: Bästekille Oraväg 17, Kivik\nKom förbi om du vill snacka nötter, rötter eller drömmen om ett ätbart landskap."
+    "objectID": "index.html#från-gräsrot-till-pålrot",
+    "href": "index.html#från-gräsrot-till-pålrot",
+    "title": "Förna Matskogar",
+    "section": "",
+    "text": "Förna utgår från byn Bästekille, strax utanför Kivik, där vi arrenderar ett tidigare övergivet växthus sedan hösten 2023. Här bygger vi steg för steg upp en plats för plantskola, perenna odlingssystem, annuell odling och samskapande.\nSe plantskolan Kontakta oss"
+  },
+  {
+    "objectID": "index.html#övergripande-presentation",
+    "href": "index.html#övergripande-presentation",
+    "title": "Förna Matskogar",
+    "section": "",
+    "text": "Förna drivs idag av Fabian Ryft och Gustaf Blom, men verksamheten har vuxit fram genom ett större gemensamt arbete tillsammans med vänner, familj, grannar, lokala företagare och människor som bara velat hjälpa till.\nUnder den första tiden handlade mycket om att röja undan stora mängder krossat glas, gammal plast och en hel skog som hade vuxit inne i växthuset. Sakta men säkert anpassar vi platsen efter framtida behov.\nNamnet Förna pekar mot det vi vill skapa. Förnan är lagret av löv och organiskt material som bildas under träd när en skog tar form. Den ligger i mötet mellan jord, vatten, luft och eld och är själva grunden för ett levande odlingssystem."
+  },
+  {
+    "objectID": "index.html#det-här-gör-vi",
+    "href": "index.html#det-här-gör-vi",
+    "title": "Förna Matskogar",
+    "section": "",
+    "text": "Vi driver en plantskola med fokus på perenna växter, nöt- och fruktträd, bärbuskar och tillbehör.\nVi erbjuder rådgivning, etablering, skötsel och förvaltning av matskogar, alléodlingar och andra fleråriga odlingssystem.\nVi odlar även annuella grödor för försäljning, eget bruk och samverkan med grannar och förädlare.\nVi bjuder in till återkommande samskapardagar där fler kan delta i upprustning, plantering, skötsel och skörd."
+  },
+  {
+    "objectID": "index.html#varför-vi-gör-det",
+    "href": "index.html#varför-vi-gör-det",
+    "title": "Förna Matskogar",
+    "section": "",
+    "text": "Vi ser hälsosamma landskap, levande jordar och rent vatten som grunden för mänsklig välfärd. Förna Matskogar är vårt sätt att ta ansvar lokalt för en framtid där människa och landskap regenererar tillsammans."
+  },
+  {
+    "objectID": "index.html#kontakt",
+    "href": "index.html#kontakt",
+    "title": "Förna Matskogar",
+    "section": "",
+    "text": "Frågor kring samskapardagar, trädgårdstjänster och etablering av odlingssystem.\nRing eller sms:a 0766-148318\n\n\n\nFrågor om växthuset, plantskolan och den annuella odlingen.\nRing eller sms:a 0790-183550"
+  },
+  {
+    "objectID": "index.html#förna-från-ovan",
+    "href": "index.html#förna-från-ovan",
+    "title": "Förna Matskogar",
+    "section": "",
+    "text": "Växthuset i Bästekille är både arbetsplats, plantskola och experimentverkstad. Här syns platsen i sin helhet, mitt i landskapet som vi vill vara med och reparera och förvalta långsiktigt."
+  },
+  {
+    "objectID": "kontakt.html",
+    "href": "kontakt.html",
+    "title": "Kontakt",
+    "section": "",
+    "text": "Hör av dig om du vill beställa växter, boka tjänster, delta i samskapardagar eller bara veta mer om Förna."
+  },
+  {
+    "objectID": "kontakt.html#fabian-ryft",
+    "href": "kontakt.html#fabian-ryft",
+    "title": "Kontakt",
+    "section": "Fabian Ryft",
+    "text": "Fabian Ryft\nFör frågor om samskapardagar, trädgårdstjänster och etablering av odlingssystem.\n\nRing eller sms:a 0766-148318"
+  },
+  {
+    "objectID": "kontakt.html#gustaf-blom",
+    "href": "kontakt.html#gustaf-blom",
+    "title": "Kontakt",
+    "section": "Gustaf Blom",
+    "text": "Gustaf Blom\nFör frågor om växthuset, plantskolan och den annuella odlingen.\n\nRing eller sms:a 0790-183550"
+  },
+  {
+    "objectID": "kontakt.html#hitta-hit",
+    "href": "kontakt.html#hitta-hit",
+    "title": "Kontakt",
+    "section": "Hitta hit",
+    "text": "Hitta hit\nFörna Matskogar\nBästekille Oraväg 17\n277 35 Kivik"
+  },
+  {
+    "objectID": "kontakt.html#beställning",
+    "href": "kontakt.html#beställning",
+    "title": "Kontakt",
+    "section": "Beställning",
+    "text": "Beställning\nVi föredrar förbeställning, särskilt vid större köp, så att vi hinner förbereda växterna för ett smidigt överlämnande. Vid mindre inköp eller upphämtning är du välkommen att höra av dig via telefon, sms eller mejl inför ditt besök."
+  },
+  {
+    "objectID": "produkter.html#beställning-och-öppettider",
+    "href": "produkter.html#beställning-och-öppettider",
+    "title": "Förna plantskola",
+    "section": "Beställning och öppettider",
+    "text": "Beställning och öppettider\n\nVi säljer våra växter på barrot under planteringsperioderna 1 mars till 31 maj och 1 september till 30 november.\nVid köp utanför dessa tider går det bra att höra av sig via telefon eller mejl.\nVi föredrar förbeställning, särskilt vid större köp.\nVill du vara säker på att växterna inte tagit slut går det bra att förbeställa under hela året.\nVid upphämtning delar vi gärna med oss av praktiska tips för etablering och förvaltning."
+  },
+  {
+    "objectID": "produkter.html#mängdrabatt",
+    "href": "produkter.html#mängdrabatt",
+    "title": "Förna plantskola",
+    "section": "Mängdrabatt",
+    "text": "Mängdrabatt\n\nKöp 5: 10 %\nKöp 10: 20 %\nKöp 50: 30 %\nKöp 100: 40 %"
+  },
+  {
+    "objectID": "produkter.html#ätbara-perenner",
+    "href": "produkter.html#ätbara-perenner",
+    "title": "Förna plantskola",
+    "section": "Ätbara perenner",
+    "text": "Ätbara perenner\n\nVi säljer främst vegetativt förökade plantor såsom rotklumpar, rotbitar och lökar.\nStörre mängder kan förökas vid förfrågan.\n\n\n  \n\n\n\n\n\n\n\n\n\n\nVäxt\nTyp\nPris\nLager\nLägg i varukorg\n\n\n\n\nLungrot / Gode henriks målla\nRotklump\n50 kr\n50 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nSträvsolros\nKnöl\n20 kr\n150 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nLibbsticka\nRotklump\n50 kr\n40 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nVallört, Bocking 14\nRotbit\n20 kr\n800 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nLuftlök\nLök\n20 kr\n40 st\n\n\n-\n\n\n0\n\n\n+"
+  },
+  {
+    "objectID": "produkter.html#bärbuskar",
+    "href": "produkter.html#bärbuskar",
+    "title": "Förna plantskola",
+    "section": "Bärbuskar",
+    "text": "Bärbuskar\nVi väljer att sälja bärbuskar utan namnsort och beskriver istället individernas karaktär i samband med beställning. Sortimentet finns i tre storlekar, S-M-L, men lagersaldot i underlaget är för närvarande 0 på samtliga listade bärbuskar. Hör gärna av dig om du vill förbeställa framtida plantor."
+  },
+  {
+    "objectID": "produkter.html#fruktträd",
+    "href": "produkter.html#fruktträd",
+    "title": "Förna plantskola",
+    "section": "Fruktträd",
+    "text": "Fruktträd\n\nVi säljer träd utan namnsort och kan även erbjuda grundstammar för egen ympning.\nTräden varierar i storlek och kvalitet och säljs i kategorierna S-M-L.\nStörre mängder och sorter kan förökas vid förfrågan.\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\nTräd\nStorlek\nPris\nBeskrivning\nLager\nLägg i varukorg\n\n\n\n\nÄpple (grundstam)\nS\n50 kr\nKlon, beräknad höjd 8-12 m\n170 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nÄpple (grundstam)\nM\n75 kr\nKlon, beräknad höjd 8-12 m\n170 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nÄpple (grundstam)\nL\n100 kr\nKlon, beräknad höjd 8-12 m\n170 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nKörsbärsplommon\nS\n50 kr\nFrösådd, beräknad höjd 4-8 m\n50 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nKörsbärsplommon\nM\n75 kr\nFrösådd, beräknad höjd 4-8 m\n50 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nKörsbärsplommon\nL\n100 kr\nFrösådd, beräknad höjd 4-8 m\n50 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nPlommon (grundstam)\nS\n50 kr\nKlon, höjd och diameter ännu okända\n55 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nPlommon (grundstam)\nM\n75 kr\nKlon, höjd och diameter ännu okända\n55 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nPlommon (grundstam)\nL\n100 kr\nKlon, höjd och diameter ännu okända\n55 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nPäron (grundstam)\nS\n50 kr\nKlon, beräknad höjd 6 m+\n50 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nPäron (grundstam)\nM\n75 kr\nKlon, beräknad höjd 6 m+\n50 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nPäron (grundstam)\nL\n100 kr\nKlon, beräknad höjd 6 m+\n50 st\n\n\n-\n\n\n0\n\n\n+"
+  },
+  {
+    "objectID": "produkter.html#nötträd",
+    "href": "produkter.html#nötträd",
+    "title": "Förna plantskola",
+    "section": "Nötträd",
+    "text": "Nötträd\n\nFrökälla för valnöt är Professorstaden i Lund, art Juglans regia.\nFrökälla för äkta kastanj är Baskemölla i Simrishamn, art Castanea sativa.\nHassel förökas vegetativt på storfruktiga hasslar i fyra variationer och beräknas finnas i sortimentet våren 2027.\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\nTräd\nStorlek\nPris\nBeskrivning\nLager\nLägg i varukorg\n\n\n\n\nValnöt\nS\n50 kr\n10-30 cm, 1 år, frösådd blandat frö\n700 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nValnöt\nM\n75 kr\n30+ cm, 1 år, selekterad frösådd från stort frö\n300 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nValnöt\nL\n200 kr\n30-40 cm, 2 år, frösådd blandat frö\n30 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nValnöt\nXL\n300 kr\n40+ cm, 2 år, frösådd blandat frö\n10 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nÄkta kastanj\nS\n50 kr\n10-30 cm, frösådd blandat frö\n150 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nÄkta kastanj\nM\n75 kr\n30+ cm, frösådd blandat frö\n100 st\n\n\n-\n\n\n0\n\n\n+"
+  },
+  {
+    "objectID": "produkter.html#växtskydd-och-tillbehör",
+    "href": "produkter.html#växtskydd-och-tillbehör",
+    "title": "Förna plantskola",
+    "section": "Växtskydd och tillbehör",
+    "text": "Växtskydd och tillbehör\n\nHär säljs olika material på löpmeter eller per styck med arbetskostnad inräknad där det är relevant.\nMaterialet är ofta begagnat och priset är justerat därefter.\n\n\n  \n\n\n\n\n\n\n\n\n\nProdukt\nPris\nLager\nLägg i varukorg\n\n\n\n\nStålrör till stolp, 50 mm diameter x 4 mm gods\n25 kr / m\n500 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nArmeringsjärn 16 mm\n20 kr / m\n100 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nViltstängsel 2 m\n13 kr / m\n75 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nTransparenta odlingsrör för unga träd, ca 100 mm diameter\n60 kr / st\n60 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nGalvaniserat putsnät 19 x 19 mm\n45 kr / m\n25 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nEnsilagebal, möglig\n300 kr / st\n15 st\n\n\n-\n\n\n0\n\n\n+\n\n\n\n\nMarkkrok stor, 300 mm lång och 16 mm tjock\n15 kr / st\n100 st\n\n\n-\n\n\n0\n\n\n+"
+  },
+  {
+    "objectID": "produkter.html#grönsaker-och-livsmedel",
+    "href": "produkter.html#grönsaker-och-livsmedel",
+    "title": "Förna plantskola",
+    "section": "Grönsaker och livsmedel",
+    "text": "Grönsaker och livsmedel\n\nOdlingsyta: 200 kvm\nGiftfritt, levande jord, god bevattning och hög mångfald\nVi odlar större partier och ger prisförslag vid förfrågan\nÄr du förädlare delar vi gärna på färdig produkt i utbyte\n\nÅrets grönsaker för 2026 är ännu inte publicerade. Hör gärna av dig om du vill veta vad som är på gång eller om du söker odling till restaurang, hushåll eller förädling."
+  },
+  {
+    "objectID": "tjanster.html",
+    "href": "tjanster.html",
+    "title": "Tjänster",
+    "section": "",
+    "text": "Alla våra tjänster kostar 400 kr/h per arbetare. Vi använder även RUT-avdrag där det är möjligt och är registrerade för F-skatt."
+  },
+  {
+    "objectID": "tjanster.html#etablering-och-nyplantering",
+    "href": "tjanster.html#etablering-och-nyplantering",
+    "title": "Tjänster",
+    "section": "Etablering och nyplantering",
+    "text": "Etablering och nyplantering\n\nArbetskraft och vägledning\nFör dig som vill etablera perenna odlingssystem på mark som du i framtiden vill kunna bruka helt eller delvis själv. Vi kan vara bollplank, extra armar och ben och ett långsiktigt stöd medan både du och odlingarna växer.\nI detta format anlitar du oss efter behov. Ibland handlar det om en knuff i rätt riktning och ibland om praktisk hjälp i utförandet."
+  },
+  {
+    "objectID": "tjanster.html#arrende-och-förvaltning",
+    "href": "tjanster.html#arrende-och-förvaltning",
+    "title": "Tjänster",
+    "section": "Arrende och förvaltning",
+    "text": "Arrende och förvaltning\nFör dig som har mark men inte vill eller kan bruka den själv och ändå vill berika platsen med ett perennt odlingssystem. Då utformar vi odlingen efter Förnas behov i samråd med dig som markägare och tar fram ett avtal som fungerar för båda parter.\nExempelvis kan ni som markägare plocka bär, frukt och nötter för husbehov medan vi förvaltar och skördar resten till förädling och försäljning. Eftersom sådana avtal ännu inte har etablerade mallar blir både ni och vi pionjärer i ett nytt sätt att bedriva jordbruk."
+  },
+  {
+    "objectID": "tjanster.html#trädfällning-och-beskärning",
+    "href": "tjanster.html#trädfällning-och-beskärning",
+    "title": "Tjänster",
+    "section": "Trädfällning och beskärning",
+    "text": "Trädfällning och beskärning\n\nTrädfällning i skog, mark och trädgårdar\nBortforsling av ris och stock eller kapning av ved på plats\nBeskärning av träd och buskar\nÖvrigt röj, körning till tippen, iordningställande och odlingsbäddar"
+  },
+  {
+    "objectID": "tjanster.html#anläggning-av-rishäck",
+    "href": "tjanster.html#anläggning-av-rishäck",
+    "title": "Tjänster",
+    "section": "Anläggning av rishäck",
+    "text": "Anläggning av rishäck\nRishäckar hjälper dig att sluta trädgårdens kretslopp, skapa habitat för smådjur, insekter, svampar och lavar och ta tillvara grenar, sly och stock istället för att köra bort dem.\nVi bygger strukturen av återbrukade stålrör från växthuset i Bästekille och anpassar form, estetik och funktion i samråd med kund."
+  },
+  {
+    "objectID": "tjanster.html#prisexempel-för-rishäck",
+    "href": "tjanster.html#prisexempel-för-rishäck",
+    "title": "Tjänster",
+    "section": "Prisexempel för rishäck",
+    "text": "Prisexempel för rishäck\n\nLåg, 1 m hög: 500 kr första metern, därefter 250 kr/m\nMellan, 1,5 m hög: 700 kr första metern, därefter 350 kr/m\nHög, 1,8 m hög: 1000 kr första metern, därefter 500 kr/m\n\nLivslängden varierar beroende på luftfuktighet och jordart. I bästa fall kan strukturen stå upp till 25 år, i andra fall närmare 10 år."
   },
   {
     "objectID": "NEXT_STEPS.html",
     "href": "NEXT_STEPS.html",
     "title": "✅ Förna-webben – Kom igång nästa gång",
     "section": "",
-    "text": "(Senast uppdaterad: 2025-10-01)\n\n\ncd /c/atbara_landskap/f-rna\ngit status\n\n\n\ngit pull --rebase origin main\n\n\n\n\nÖppna RStudio\nVälj File → Open Project → mappen f-rna/\nKlicka på Build Website (renderar Quarto-webben)\n\n\n\n\ngit add .\ngit commit -m \"Beskriv vad du ändrat\"\ngit push origin main\n\n\n\n\nDomänen förna.se pekar via CNAME till GitHub Pages\nDNS kan ta 24–48 timmar att slå igenom\nNär det funkar → kryssa i Enforce HTTPS i GitHub\n\n\n\n\n\nLägg text/bilder i index.qmd, produkter.qmd, kontakt.qmd\nTesta nytt tema i _quarto.yml (minty, flatly…)\nFundera på att även registrera domän utan å/ö (t.ex. forna.se eller f-orna.com)\n\n\n\n\n\nlägga till en kalender Förna samskapardagar"
+    "text": "(Senast uppdaterad: 2025-10-01)\n\n\ncd /c/atbara_landskap/f-rna\ngit status\n\n\n\ngit pull --rebase origin main\n\n\n\n\nÖppna RStudio\nVälj File → Open Project → mappen f-rna/\nKlicka på Build Website (renderar Quarto-webben)\n\n\n\n\ngit add .\ngit commit -m \"Beskriv vad du ändrat\"\ngit push origin main\n\n\n\n\nDomänen förna.se pekar via CNAME till GitHub Pages\nDNS kan ta 24–48 timmar att slå igenom\nNär det funkar → kryssa i Enforce HTTPS i GitHub\n\n\n\n\n\nLägg text/bilder i index.qmd, produkter.qmd, kontakt.qmd\nTesta nytt tema i _quarto.yml (minty, flatly…)\nFundera på att även registrera domän utan å/ö (t.ex. forna.se eller f-orna.com)\n\n\n\n\n\nlägga till en kalender Förna samskapardagar\n\n\n\n\nNär ni vill gå från att öppna ett mejl i användarens mejlprogram till att skicka beställningar direkt från kassan:\n\nSkapa eller logga in på ett EmailJS-konto.\nLägg till en tjänst under Email Services.\nSkapa två mallar under Email Templates.\nHämta dessa fyra värden:\n\npublicKey\nserviceId\nsellerTemplateId\nbuyerTemplateId\n\nÖppna shop/email-config.js.\nByt:\n\nsellerName till Fabian\nsellerEmail till Fabians riktiga adress\nmode: \"mailto\" till mode: \"emailjs\"\n\nFyll i EmailJS-värdena i shop/email-config.js.\nKör quarto render.\n\nExempel:\nwindow.FORNA_EMAIL_CONFIG = {\n  sellerName: \"Fabian\",\n  sellerEmail: \"fabian@example.com\",\n  pickupLocation: \"Bästekille i växthuset\",\n  pickupNote:\n    \"Fabian hör av sig och återkommer med datum då varorna kan hämtas upp i Bästekille i växthuset.\",\n  mode: \"emailjs\",\n  emailjs: {\n    publicKey: \"DIN_PUBLIC_KEY\",\n    serviceId: \"DIN_SERVICE_ID\",\n    sellerTemplateId: \"DIN_SELLER_TEMPLATE_ID\",\n    buyerTemplateId: \"DIN_BUYER_TEMPLATE_ID\",\n  },\n};\nVariabler som mallarna kan använda i EmailJS:\n\n{order_id}\n{order_created_at}\n{customer_name}\n{customer_email}\n{customer_phone}\n{customer_note}\n{order_lines}\n{order_total}\n{pickup_location}\n{pickup_note}\n{seller_name}\n{to_email}"
   },
   {
     "objectID": "NEXT_STEPS.html#starta-projektet",
@@ -145,5 +460,12 @@
     "title": "✅ Förna-webben – Kom igång nästa gång",
     "section": "",
     "text": "lägga till en kalender Förna samskapardagar"
+  },
+  {
+    "objectID": "NEXT_STEPS.html#byt-från-mailto-till-emailjs-senare",
+    "href": "NEXT_STEPS.html#byt-från-mailto-till-emailjs-senare",
+    "title": "✅ Förna-webben – Kom igång nästa gång",
+    "section": "",
+    "text": "När ni vill gå från att öppna ett mejl i användarens mejlprogram till att skicka beställningar direkt från kassan:\n\nSkapa eller logga in på ett EmailJS-konto.\nLägg till en tjänst under Email Services.\nSkapa två mallar under Email Templates.\nHämta dessa fyra värden:\n\npublicKey\nserviceId\nsellerTemplateId\nbuyerTemplateId\n\nÖppna shop/email-config.js.\nByt:\n\nsellerName till Fabian\nsellerEmail till Fabians riktiga adress\nmode: \"mailto\" till mode: \"emailjs\"\n\nFyll i EmailJS-värdena i shop/email-config.js.\nKör quarto render.\n\nExempel:\nwindow.FORNA_EMAIL_CONFIG = {\n  sellerName: \"Fabian\",\n  sellerEmail: \"fabian@example.com\",\n  pickupLocation: \"Bästekille i växthuset\",\n  pickupNote:\n    \"Fabian hör av sig och återkommer med datum då varorna kan hämtas upp i Bästekille i växthuset.\",\n  mode: \"emailjs\",\n  emailjs: {\n    publicKey: \"DIN_PUBLIC_KEY\",\n    serviceId: \"DIN_SERVICE_ID\",\n    sellerTemplateId: \"DIN_SELLER_TEMPLATE_ID\",\n    buyerTemplateId: \"DIN_BUYER_TEMPLATE_ID\",\n  },\n};\nVariabler som mallarna kan använda i EmailJS:\n\n{order_id}\n{order_created_at}\n{customer_name}\n{customer_email}\n{customer_phone}\n{customer_note}\n{order_lines}\n{order_total}\n{pickup_location}\n{pickup_note}\n{seller_name}\n{to_email}"
   }
 ]

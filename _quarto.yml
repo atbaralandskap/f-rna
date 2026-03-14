@@ -4,6 +4,10 @@
   resources:
     - CNAME
     - assets/js/store.js
+    - shop/checkout.css
+    - shop/email-config.js
+    - shop/cart-page.js
+    - shop/checkout-page.js
   render:
     - "*.qmd"
     - NEXT_STEPS.md
@@ -15,8 +19,19 @@ website:
     left:
       - href: index.qmd
         text: Hem
+      - href: about.qmd
+        text: Om oss
+      - href: uppdrag.qmd
+        text: Uppdrag
       - href: produkter.qmd
-        text: Produkter
+        text: Plantskola
+      - href: tjanster.qmd
+        text: Tjänster
+      - href: samskapardagar.qmd
+        text: Samskapardagar
+    right:
+      - href: partners.qmd
+        text: Partners
       - href: kontakt.qmd
         text: Kontakt
       - href: kassa.qmd

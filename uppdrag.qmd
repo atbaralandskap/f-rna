@@ -1,0 +1,52 @@
+---
+title: "Vårt uppdrag"
+---
+
+::: {.page-intro}
+# Vad vi gör och varför
+
+Förna är vår utgångspunkt, men arbetet sträcker sig längre än platsen där vi står idag.
+:::
+
+::: {.split-grid}
+::: {.content-card}
+## Perenna odlingssystem
+
+Vi vill kunna arrendera mark som idag inte brukas, eller mark som behöver diversifieras, och agera som förvaltare av dessa ytor. I dag finns ingen självklar avtalsmall för arrenden av perenna system, vilket betyder att de som vill gå in i sådana samarbeten är med och formar något nytt tillsammans med oss.
+
+Vi arbetar med matskogar, skogsträdgårdar och alléodlingar, och med alla de moment som krävs i ett perennt odlingssystem: observation, planering, plantering, etablering, skötsel och skörd.
+:::
+::: {.content-card}
+## Varför perennt jordbruk
+
+I perenna odlingssystem samverkar nöt- och fruktträd, bärbuskar, läkeörter, klätterväxter, svampar och djurliv i flera skikt. När vi börjar bruka mer högväxande arter för livsmedel kan vi nyttja mer av solens strålar, nå djupare lager av vatten och mineraler och skapa en mer resilient matproduktion.
+
+Det handlar inte bara om fler grödor, utan också om fler arbetsuppgifter, fler människor i landskapet och fler vägar in i jordbruket.
+:::
+:::
+
+::: {.section-block}
+## Fröer, jord och vatten
+
+Genom plantskolan sprider vi växtmaterial anpassat för framtidens klimat och landskap. Mycket av materialet driver vi upp från frö, vilket ger nya sorter möjlighet att ta form i dagens förhållanden.
+
+Hälsosamma människor börjar med hälsosam mat, som börjar i hälsosam jord. Hälsosam jord byggs av levande rötter, mykorrhiza, nedbrytarsvampar, mull, syre och lokalt grundvatten. Perenna system är vårt verktyg för att stötta den processen.
+
+Djupa rötter och stora växter hjälper till att flytta vatten genom landskapet. I förlängningen tror vi att sådana system kan bidra till mer nederbörd och tryggare vattentillgång i framtiden.
+:::
+
+::: {.section-block}
+## Odlingssystem vi arbetar med
+
+### Matskog eller skogsträdgård
+
+Här samverkar nöt- och fruktträd, bärbuskar, örter, klätterväxter, svampar och djurliv i flera skikt. I skogsbrynen börjar vi med högväxta örter, därefter mindre bärbuskar, större bärbuskar, fruktträd och till sist större träd med klätterväxter.
+
+Innanför skogsbrynet planteras beståndsbildande träd, till exempel äkta kastanj för livsmedel eller andra virkesträd. Skillnaden mellan matskog och skogsträdgård är främst skalan.
+
+### Alléodlingar
+
+En alléodling är ett samlingsbegrepp för perenn odling i raka rader. Samma arter som i en matskog kan användas, men strukturen gör odlingen lättare att förvalta och skörda rationellt. Mellan raderna kan vi odla spannmål, grönsaker, vall eller ha betesdjur.
+
+I båda typerna av system arbetar vi mot en skogsbrynseffekt, eftersom skogsbrynet är en av landskapets mest artrika miljöer och en plats där solljuset kan utnyttjas effektivt.
+:::

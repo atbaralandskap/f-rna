@@ -95,8 +95,30 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Hem</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">Om oss</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./uppdrag.html"> 
+<span class="menu-text">Uppdrag</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./produkter.html"> 
-<span class="menu-text">Produkter</span></a>
+<span class="menu-text">Plantskola</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./tjanster.html"> 
+<span class="menu-text">Tjänster</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./samskapardagar.html"> 
+<span class="menu-text">Samskapardagar</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./partners.html"> 
+<span class="menu-text">Partners</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./kontakt.html"> 
@@ -141,20 +163,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="assets/css/shop.css">
-<section id="din-varukorg" class="level2">
-<h2 class="anchored" data-anchor-id="din-varukorg">Din varukorg</h2>
+<link rel="stylesheet" href="shop/checkout.css">
+<section id="din-varukorg" class="level1">
+<h1>Din varukorg</h1>
+<p>Beställningen skickas som en förfrågan via mejl eller öppnas i din mejlklient beroende på hur checkouten är konfigurerad. Fabian återkommer med datum för upphämtning i växthuset i Bästekille.</p>
 <section class="shop-layout">
   <article class="shop-card">
-    <h2 class="anchored">Varor</h2>
+    <h2 class="anchored" data-anchor-id="din-varukorg">Varor</h2>
+    <section id="cart-overview" class="cart-overview" hidden=""></section>
     <ul id="cart-items" class="cart-list"></ul>
     <p id="cart-empty" class="cart-empty">Varukorgen är tom.</p>
     <p id="cart-total" class="cart-total">Totalt: 0 kr</p>
-    <p class="shop-note">Betalning sker vid upphämtning.</p>
+    <div class="cart-actions">
+      <button id="cart-clear" type="button" class="cart-clear">Töm varukorgen</button>
+    </div>
+    <p class="shop-note">Betalning och leveransdetaljer bekräftas efter att beställningen kommit in.</p>
   </article>
 
   <article class="shop-card">
-    <h2 class="anchored">Köp</h2>
-    <p class="shop-note">När du trycker på Köp får du ett mejl med din beställning. Fabian återkommer med datum för upphämtning i Bästekille i växthuset.</p>
+    <h2 class="anchored">Skicka beställning</h2>
+    <p id="checkout-intro" class="shop-note">Fyll i dina uppgifter så skickas din beställning vidare. Om något är oklart kontaktar Fabian dig före upphämtning.</p>
+    <section id="checkout-config-status" class="checkout-config-status" aria-live="polite"></section>
 
     <form id="checkout-form" class="checkout-form">
       <label>
@@ -177,14 +206,15 @@ ul.task-list li input[type="checkbox"] {
         <textarea name="note" rows="3" placeholder="Frivilligt"></textarea>
       </label>
 
-      <button id="checkout-submit" type="submit">Köp</button>
+      <button id="checkout-submit" type="submit">Skicka beställning</button>
       <p id="checkout-message" class="checkout-message" role="status" aria-live="polite"></p>
     </form>
   </article>
 </section>
 
-<script type="module" src="assets/js/cart.js"></script>
-<script type="module" src="assets/js/checkout.js"></script>
+<script src="shop/email-config.js"></script>
+<script type="module" src="shop/cart-page.js"></script>
+<script type="module" src="shop/checkout-page.js"></script>
 
 
 </section>

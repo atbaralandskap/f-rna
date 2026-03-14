@@ -116,3 +116,261 @@ h6 {
   opacity: 0.78;
   margin-top: 1rem;
 }
+
+.hero {
+  margin: 1rem 0 2rem;
+  padding: 3.5rem 1.5rem;
+  border: 1px solid rgba(56, 69, 52, 0.2);
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at top right, rgba(107, 90, 66, 0.22), transparent 36%),
+    linear-gradient(135deg, rgba(247, 244, 236, 0.96), rgba(215, 208, 191, 0.9));
+  box-shadow: 0 18px 35px rgba(44, 35, 24, 0.12);
+}
+
+.hero__inner {
+  max-width: 760px;
+}
+
+.home-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.home-main {
+  min-width: 0;
+}
+
+.home-rail {
+  position: sticky;
+  top: 6.5rem;
+}
+
+.rail-logo-card {
+  padding: 1rem;
+  border: 1px solid var(--forna-border);
+  border-radius: 20px;
+  background: rgba(247, 243, 235, 0.92);
+  box-shadow: 0 10px 24px rgba(44, 35, 24, 0.08);
+}
+
+.rail-logo-image {
+  display: block;
+  width: 100%;
+  max-width: 190px;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(44, 35, 24, 0.14);
+}
+
+.hero h1,
+.hero h2,
+.hero p {
+  margin-bottom: 0.9rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+}
+
+.hero h2 {
+  font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+  font-weight: 500;
+  color: #4c5e45;
+}
+
+.page-intro,
+.section-block,
+.content-card,
+.info-card,
+.contact-card,
+.metric-card,
+.feature-photo {
+  border: 1px solid var(--forna-border);
+  border-radius: 18px;
+  background: rgba(247, 243, 235, 0.94);
+  box-shadow: 0 10px 24px rgba(44, 35, 24, 0.08);
+}
+
+.page-intro,
+.section-block {
+  padding: 1.4rem 1.2rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.split-grid,
+.info-grid,
+.metric-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.split-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.info-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.metric-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.content-card,
+.info-card,
+.contact-card,
+.metric-card,
+.feature-photo {
+  padding: 1.2rem;
+}
+
+.metric-card h3 {
+  margin-bottom: 0.35rem;
+  font-size: 1.8rem;
+}
+
+.feature-photo {
+  margin: 1rem 0 1.5rem;
+}
+
+.feature-photo img {
+  border-radius: 14px;
+  margin-bottom: 1rem;
+}
+
+.feature-photo h2 {
+  margin-top: 0.1rem;
+}
+
+.notice-box {
+  margin: 1rem 0 1.5rem;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid var(--forna-accent);
+  border-radius: 14px;
+  background: rgba(236, 229, 215, 0.92);
+}
+
+.cta-button {
+  display: inline-block;
+  margin-right: 0.75rem;
+  margin-top: 0.35rem;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  border: 1px solid #384534;
+  background: #384534;
+  color: #f7f4ec;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+  color: #fff;
+  background: #4b5a45;
+}
+
+.cta-button--ghost {
+  background: transparent;
+  color: #384534;
+}
+
+.cta-button--ghost:hover,
+.cta-button--ghost:focus {
+  color: #fff;
+}
+
+.video-frame {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #1f1d19;
+}
+
+.video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid var(--forna-border);
+  box-shadow: 0 10px 24px rgba(44, 35, 24, 0.08);
+}
+
+.image-marquee {
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid var(--forna-border);
+  background: rgba(236, 229, 215, 0.72);
+  padding: 0.8rem 0;
+}
+
+.image-marquee__track {
+  display: flex;
+  gap: 0.8rem;
+  width: max-content;
+  animation: marquee-scroll 36s linear infinite;
+}
+
+.image-marquee__track img {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(44, 35, 24, 0.14);
+}
+
+.image-marquee:hover .image-marquee__track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 700px) {
+  .hero {
+    padding: 2.5rem 1rem;
+  }
+}
+
+@media (max-width: 980px) {
+  .home-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .home-rail {
+    position: static;
+    order: -1;
+  }
+
+  .rail-logo-card {
+    display: flex;
+    justify-content: center;
+  }
+}

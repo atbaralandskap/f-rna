@@ -1,9 +1,59 @@
 ---
-title: "About"
+title: "Om oss"
 ---
 
-About this site
+::: {.page-intro}
+Vi arbetar för jordbrukslandskap som varje år blir mer artrika, mer produktiva och mer komplexa.
+:::
 
-```{r}
-1 + 1
+::: {.split-grid}
+::: {.content-card}
+## Se Förna i rörelse
+
+```{=html}
+<div class="video-frame">
+  <iframe
+    src="https://www.youtube.com/embed/hc6dpnGMlBA"
+    title="Förna på YouTube"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
 ```
+:::
+::: {.content-card}
+![Förna i arbete](bilder/Fabian_1.3.1.jpg){width=100% fig-alt="Person i arbete på Förna"}
+:::
+:::
+
+::: {.split-grid}
+::: {.content-card}
+## Människan som förvaltare
+
+Naturen strävar mot att alltid bli mer komplex. Vi är vad vi konsumerar, och när arter försvinner ur de näringskedjor vi själva är en del av förlorar vi också delar av vår egen resiliens.
+
+Varje gång en art saknas i den näringsväv som bär vår matproduktion saknas också något i den näring som bygger friska och välmående människor. Därför vill vi verka för jordbruk som år för år blir rikare på liv.
+
+Vi människor är en del av ekosystemet, inte dess motpol. Det får vi lov att uppleva som jordbrukare, och det är också därför vi vill lyfta jordbruket som ett meningsfullt arbete i en tid då många söker syfte.
+:::
+::: {.content-card}
+## Landsbygdens välmående
+
+Vi tror att fler människor på landsbygden är avgörande för den utveckling vi vill se. Idag försvagas landsbygden samtidigt som små lokala näringsidkare slås ut och större aktörer tar mer plats.
+
+Stadens välmående är helt beroende av landsbygdens jordar, vatten och förvaltare. Ett levande jordbruk kräver välmående jordbrukare. Den trenden vill vi vara med och vända.
+
+Precis som ekosystem behöver regenerera varje år behöver också människorna som lever och arbetar i dem göra det. Det är dags att sluta tömma landsbygden på resurser och stå upp för den lilla människan.
+:::
+:::
+
+::: {.section-block}
+## Förna som plats
+
+Förna är både en fysisk plats i Bästekille och ett långsiktigt arbete för att bygga relationer mellan jord, människor, växter och vatten. Här vill vi göra det möjligt att odla, samarbeta, lära och ta ansvar lokalt.
+:::
+
+::: {.photo-grid}
+![Trädgårdsarbete på Förna](bilder/Tree_2.2.1.jpg){fig-alt="Trädgårdsarbete på Förna"}
+![Fältarbete och gemenskap](bilder/Fieldwork_1.20.1.jpg){fig-alt="Fältarbete på Förna"}
+:::

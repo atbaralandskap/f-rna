@@ -37,4 +37,58 @@ git push origin main
 ## 7. förbättringar
 - lägga till en kalender Förna samskapardagar
 
+## 8. Byt från `mailto` till EmailJS senare
+
+När ni vill gå från att öppna ett mejl i användarens mejlprogram till att skicka beställningar direkt från kassan:
+
+1. Skapa eller logga in på ett EmailJS-konto.
+2. Lägg till en tjänst under `Email Services`.
+3. Skapa två mallar under `Email Templates`.
+4. Hämta dessa fyra värden:
+   - `publicKey`
+   - `serviceId`
+   - `sellerTemplateId`
+   - `buyerTemplateId`
+5. Öppna `shop/email-config.js`.
+6. Byt:
+   - `sellerName` till `Fabian`
+   - `sellerEmail` till Fabians riktiga adress
+   - `mode: "mailto"` till `mode: "emailjs"`
+7. Fyll i EmailJS-värdena i `shop/email-config.js`.
+8. Kör `quarto render`.
+
+Exempel:
+
+```js
+window.FORNA_EMAIL_CONFIG = {
+  sellerName: "Fabian",
+  sellerEmail: "fabian@example.com",
+  pickupLocation: "Bästekille i växthuset",
+  pickupNote:
+    "Fabian hör av sig och återkommer med datum då varorna kan hämtas upp i Bästekille i växthuset.",
+  mode: "emailjs",
+  emailjs: {
+    publicKey: "DIN_PUBLIC_KEY",
+    serviceId: "DIN_SERVICE_ID",
+    sellerTemplateId: "DIN_SELLER_TEMPLATE_ID",
+    buyerTemplateId: "DIN_BUYER_TEMPLATE_ID",
+  },
+};
+```
+
+Variabler som mallarna kan använda i EmailJS:
+
+- `{{order_id}}`
+- `{{order_created_at}}`
+- `{{customer_name}}`
+- `{{customer_email}}`
+- `{{customer_phone}}`
+- `{{customer_note}}`
+- `{{order_lines}}`
+- `{{order_total}}`
+- `{{pickup_location}}`
+- `{{pickup_note}}`
+- `{{seller_name}}`
+- `{{to_email}}`
+
 

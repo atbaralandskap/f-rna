@@ -130,8 +130,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Hem</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">Om oss</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./uppdrag.html"> 
+<span class="menu-text">Uppdrag</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./produkter.html"> 
-<span class="menu-text">Produkter</span></a>
+<span class="menu-text">Plantskola</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./tjanster.html"> 
+<span class="menu-text">Tjänster</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./samskapardagar.html"> 
+<span class="menu-text">Samskapardagar</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./partners.html"> 
+<span class="menu-text">Partners</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./kontakt.html"> 
@@ -205,6 +227,61 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="förbättringar">7. förbättringar</h2>
 <ul>
 <li>lägga till en kalender Förna samskapardagar</li>
+</ul>
+</section>
+<section id="byt-från-mailto-till-emailjs-senare" class="level2">
+<h2 class="anchored" data-anchor-id="byt-från-mailto-till-emailjs-senare">8. Byt från <code>mailto</code> till EmailJS senare</h2>
+<p>När ni vill gå från att öppna ett mejl i användarens mejlprogram till att skicka beställningar direkt från kassan:</p>
+<ol type="1">
+<li>Skapa eller logga in på ett EmailJS-konto.</li>
+<li>Lägg till en tjänst under <code>Email Services</code>.</li>
+<li>Skapa två mallar under <code>Email Templates</code>.</li>
+<li>Hämta dessa fyra värden:
+<ul>
+<li><code>publicKey</code></li>
+<li><code>serviceId</code></li>
+<li><code>sellerTemplateId</code></li>
+<li><code>buyerTemplateId</code></li>
+</ul></li>
+<li>Öppna <code>shop/email-config.js</code>.</li>
+<li>Byt:
+<ul>
+<li><code>sellerName</code> till <code>Fabian</code></li>
+<li><code>sellerEmail</code> till Fabians riktiga adress</li>
+<li><code>mode: "mailto"</code> till <code>mode: "emailjs"</code></li>
+</ul></li>
+<li>Fyll i EmailJS-värdena i <code>shop/email-config.js</code>.</li>
+<li>Kör <code>quarto render</code>.</li>
+</ol>
+<p>Exempel:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">window</span><span class="op">.</span><span class="at">FORNA_EMAIL_CONFIG</span> <span class="op">=</span> {</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">sellerName</span><span class="op">:</span> <span class="st">"Fabian"</span><span class="op">,</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">sellerEmail</span><span class="op">:</span> <span class="st">"fabian@example.com"</span><span class="op">,</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pickupLocation</span><span class="op">:</span> <span class="st">"Bästekille i växthuset"</span><span class="op">,</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pickupNote</span><span class="op">:</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Fabian hör av sig och återkommer med datum då varorna kan hämtas upp i Bästekille i växthuset."</span><span class="op">,</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">mode</span><span class="op">:</span> <span class="st">"emailjs"</span><span class="op">,</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">emailjs</span><span class="op">:</span> {</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="dt">publicKey</span><span class="op">:</span> <span class="st">"DIN_PUBLIC_KEY"</span><span class="op">,</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">serviceId</span><span class="op">:</span> <span class="st">"DIN_SERVICE_ID"</span><span class="op">,</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">sellerTemplateId</span><span class="op">:</span> <span class="st">"DIN_SELLER_TEMPLATE_ID"</span><span class="op">,</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">buyerTemplateId</span><span class="op">:</span> <span class="st">"DIN_BUYER_TEMPLATE_ID"</span><span class="op">,</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  }<span class="op">,</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Variabler som mallarna kan använda i EmailJS:</p>
+<ul>
+<li><code>{order_id}</code></li>
+<li><code>{order_created_at}</code></li>
+<li><code>{customer_name}</code></li>
+<li><code>{customer_email}</code></li>
+<li><code>{customer_phone}</code></li>
+<li><code>{customer_note}</code></li>
+<li><code>{order_lines}</code></li>
+<li><code>{order_total}</code></li>
+<li><code>{pickup_location}</code></li>
+<li><code>{pickup_note}</code></li>
+<li><code>{seller_name}</code></li>
+<li><code>{to_email}</code></li>
 </ul>
 
 

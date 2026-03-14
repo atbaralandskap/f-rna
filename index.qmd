@@ -1,67 +1,148 @@
-﻿---
-title: "Förna – Ett växthus blir matskog"
+---
+title: "Förna Matskogar"
 format: html
 toc: false
 ---
 
+::: {.home-layout}
+::: {.home-main}
+::: {.hero}
+::: {.hero__inner}
+# Förna Matskogar
 
-<section style="background-color:#f8f8f8; padding:3em 0; text-align:center; border-radius:8px;">
-  <img src="bilder/förna_logga.jpg" width="160" style="border-radius:50%; margin-bottom:1em;">
-  <h1 style="font-size:2.2em; margin-bottom:0.2em;">Förna</h1>
-  <p style="font-size:1.2em; color:#444; max-width:600px; margin:auto;">
-    En rörelse för nötodling i Bästekille.
-  </p>
-</section>
+## Från gräsrot till pålrot
 
----
+Förna utgår från byn Bästekille, strax utanför Kivik, där vi arrenderar ett tidigare övergivet växthus sedan hösten 2023. Här bygger vi steg för steg upp en plats för plantskola, perenna odlingssystem, annuell odling och samskapande.
 
-<section style="padding:2em 0; text-align:center;">
-  <img src="bilder/sjörövar_fabbe.jpg" width="240" style="border-radius:12px; margin-bottom:1em;">
-  <h2>Om oss</h2>
-  <p style="max-width:650px; margin:auto;">
-    Förna växer fram i ett 3500 kvadratmeter stort växthus utanför Bästekille – en plats som länge stod övergiven, där glasrutorna rasat och skogen krupit in.  
-    Nu förvandlas växthuset, steg för steg, till en levande matskog med valnötsträd, kastanj, hassel, bondbönor, kvitten och svamp.  
-    Projektet drivs av Fabian Ryft, som med klimatoro i ryggen och jord under naglarna odlar fram hopp, kunskap och ätbar mångfald – tillsammans med grannar och besökare.  
-    Förna är både ett odlingsexperiment och en mötesplats, där matskogar testas i liten skala för att inspirera större förändring.  
-    Det här är inte bara odling – det är en konkret handling för framtiden.
-  </p>
-</section>
+[Se plantskolan](produkter.qmd){.cta-button}
+[Kontakta oss](kontakt.qmd){.cta-button .cta-button--ghost}
+:::
+:::
 
+::: {.metric-grid}
+::: {.metric-card}
+### 3500 kvm
 
----
+Växthusyta att återta, odla upp och förvalta tillsammans.
+:::
+::: {.metric-card}
+### 480 kvm
 
-<section style="background-color:#f4f4f4; padding:2em 0; text-align:center;">
-  <h2>En levande plats i förändring</h2>
-  <p>Följ med oss ut bland fruktträd, jordhögar och visioner – här spirar idéer, gemenskap och framtidens odlingar:</p>
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/hc6dpnGMlBA"
-    title="Förna på YouTube" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen style="margin-top:1em; border-radius:8px;">
-  </iframe>
-</section>
+Bäddyta med droppbevattning på hela ytan.
+:::
+::: {.metric-card}
+### 1 gång i månaden
 
+Öppna arbetsdagar med lunch, fika och praktiskt arbete.
+:::
+:::
 
----
+::: {.split-grid}
+::: {.content-card}
+## Övergripande presentation
 
-<section style="padding:2em 0; text-align:center;">
-  <h2>Vad vi gör – och varför</h2>
-  <ul style="display:inline-block; text-align:left; font-size:1.1em;">
-    <li>Vi odlar ekologiska nötträd – hassel, valnöt och kastanj – för ett robust och klimatsmart matsystem.</li>
-    <li>Vi bygger upp jorden med växttäcke, svampsamarbeten och vattenhållande strukturer – att vårda marken är centralt för oss.</li>
-    <li>Vi experimenterar med skogsträdgårdar för att skapa platser rika på liv och ätbar mångfald.</li>
-    <li>Vi delar allt öppet – frön, kunskap och erfarenheter – genom fältvandringar och samtal.</li>
-    <li>Vi ser hur markens översta lager – förnan – består av dött men inte fullt nedbrutet växtmaterial, djurrester och exkrement :contentReference[oaicite:1]{index=1}. Detta lager är livsviktigt: det utgör habitat för smådjur, svampar och växter – och när det komposteras frigörs näring till jorden :contentReference[oaicite:2]{index=2}. Genom vårt arbete strävar vi efter att stärka och bevara den här naturliga processen i våra odlingssystem.</li>
-  </ul>
-</section>
+Förna drivs idag av Fabian Ryft och Gustaf Blom, men verksamheten har vuxit fram genom ett större gemensamt arbete tillsammans med vänner, familj, grannar, lokala företagare och människor som bara velat hjälpa till.
 
+Under den första tiden handlade mycket om att röja undan stora mängder krossat glas, gammal plast och en hel skog som hade vuxit inne i växthuset. Sakta men säkert anpassar vi platsen efter framtida behov.
 
----
+Namnet Förna pekar mot det vi vill skapa. Förnan är lagret av löv och organiskt material som bildas under träd när en skog tar form. Den ligger i mötet mellan jord, vatten, luft och eld och är själva grunden för ett levande odlingssystem.
+:::
+::: {.content-card}
+## Det här gör vi
 
-<section style="text-align:center; padding:2em 0;">
-  <h2>Vill du veta mer?</h2>
-  <p>
-    Läs vidare om <a href="produkter.html">våra produkter</a> eller ta kontakt via <a href="kontakt.html">vårt kontaktformulär</a>.
-  </p>
-</section>
+- Vi driver en plantskola med fokus på perenna växter, nöt- och fruktträd, bärbuskar och tillbehör.
+- Vi erbjuder rådgivning, etablering, skötsel och förvaltning av matskogar, alléodlingar och andra fleråriga odlingssystem.
+- Vi odlar även annuella grödor för försäljning, eget bruk och samverkan med grannar och förädlare.
+- Vi bjuder in till återkommande samskapardagar där fler kan delta i upprustning, plantering, skötsel och skörd.
+:::
+:::
 
+::: {.section-block}
+## Varför vi gör det
+
+Vi ser hälsosamma landskap, levande jordar och rent vatten som grunden för mänsklig välfärd. Förna Matskogar är vårt sätt att ta ansvar lokalt för en framtid där människa och landskap regenererar tillsammans.
+:::
+
+::: {.info-grid}
+::: {.info-card}
+### Vårt uppdrag
+
+Vi vill bidra till att en ny bransch inom jordbruket får ta form, där fler människor kan försörja sig på att vårda landskapen och producera mat i perenna system.
+
+[Läs mer](uppdrag.qmd)
+:::
+::: {.info-card}
+### Tjänster
+
+Vi arbetar med etablering, förvaltning, trädfällning, beskärning, röjning och anläggning av rishäckar.
+
+[Se tjänster](tjanster.qmd)
+:::
+::: {.info-card}
+### Samskapardagar
+
+En gång i månaden bjuder vi in till praktiskt arbete, samtal, soppa, kaffe och gemenskap på Förna.
+
+[Till samskapardagar](samskapardagar.qmd)
+:::
+:::
+
+::: {.split-grid}
+::: {.content-card}
+## Kontakt
+
+### Fabian Ryft
+
+Frågor kring samskapardagar, trädgårdstjänster och etablering av odlingssystem.
+
+Ring eller sms:a `0766-148318`
+
+### Gustaf Blom
+
+Frågor om växthuset, plantskolan och den annuella odlingen.
+
+Ring eller sms:a `0790-183550`
+:::
+::: {.content-card}
+![Förna i Bästekille](bilder/sjörövar_fabbe.jpg){width=100% fig-alt="Förna i Bästekille"}
+:::
+:::
+
+::: {.feature-photo}
+![Förna från ovan](bilder/flygbild.jpg){width=100% fig-alt="Flygbild över växthuset i Förna"}
+
+## Förna från ovan
+
+Växthuset i Bästekille är både arbetsplats, plantskola och experimentverkstad. Här syns platsen i sin helhet, mitt i landskapet som vi vill vara med och reparera och förvalta långsiktigt.
+:::
+
+::: {.section-block}
+## Bildflöde
+
+```{=html}
+<div class="image-marquee" aria-label="Bildspel från Förna">
+  <div class="image-marquee__track">
+    <img src="bilder/Fabian_1.3.1.jpg" alt="Förna bild 1">
+    <img src="bilder/Anna_1.5.1.jpg" alt="Förna bild 2">
+    <img src="bilder/Fieldwork_1.20.1.jpg" alt="Förna bild 3">
+    <img src="bilder/Team_3.2.1.jpg" alt="Förna bild 4">
+    <img src="bilder/Tree_2.2.1.jpg" alt="Förna bild 5">
+    <img src="bilder/Oasis_1.19.1.jpg" alt="Förna bild 6">
+    <img src="bilder/Fabian_1.3.1.jpg" alt="" aria-hidden="true">
+    <img src="bilder/Anna_1.5.1.jpg" alt="" aria-hidden="true">
+    <img src="bilder/Fieldwork_1.20.1.jpg" alt="" aria-hidden="true">
+    <img src="bilder/Team_3.2.1.jpg" alt="" aria-hidden="true">
+    <img src="bilder/Tree_2.2.1.jpg" alt="" aria-hidden="true">
+    <img src="bilder/Oasis_1.19.1.jpg" alt="" aria-hidden="true">
+  </div>
+</div>
+```
+:::
+:::
+
+::: {.home-rail}
+::: {.rail-logo-card}
+![](bilder/förna_logga.jpg){.rail-logo-image fig-alt="Förna logga"}
+:::
+:::
+:::

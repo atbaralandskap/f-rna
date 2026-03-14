@@ -1,0 +1,49 @@
+---
+title: "Förna samskapardagar"
+---
+
+::: {.page-intro}
+# Förna samskapardagar
+
+En dag i månaden bjuder vi in till praktiska arbetsuppgifter, lunch, fika och gemenskap på Förna.
+:::
+
+::: {.split-grid}
+::: {.content-card}
+## Syfte
+
+- Vi vill stärka banden mellan konsument och producent, men också mellan människor i stort.
+- Vi tror att jordbruket kan fungera som en bro i en tid där avståndet mellan människor ofta känns stort.
+- Vi vill lyfta vikten av levande landskap, god mat och hälsosamma relationer till våra grannar och medmänniskor.
+:::
+::: {.content-card}
+## Vision
+
+Vi vill göra handfasta miljö- och klimataktioner tillsammans med er. Politiker, banker och industri gör sitt, men vi vill också kunna göra något konkret här och nu för klimatet, miljön och framtiden för barnen.
+
+Vi har tillgång till stora mängder frukt- och nötträd, bärbuskar och perenner som vi vill få ut i landskapet i så stor omfattning som möjligt.
+:::
+:::
+
+::: {.section-block}
+## Format
+
+- Vi möts vanligtvis på Förna, Bästekille Oraväg 17, 277 35 Kivik.
+- Officiell tid är oftast `10:00-16:00`, vanligen på en söndag.
+- Förberedelser sker dagen innan och då är man också välkommen.
+- Vi anpassar uppgifterna efter person och förmåga, och arbete är inget krav.
+- Vi bjuder på soppa, bröd, pålägg, kaffe, te och tilltugg.
+- Ta gärna med arbetshandskar, skål och sked till soppan.
+- Föranmälan är inte ett krav, men hjälper oss att planera maten.
+- Miljön kan vara fysiskt krävande med glas, eld och verktyg, så barn behöver hållas under uppsikt.
+:::
+
+::: {.notice-box}
+## Kommande evenemang
+
+Kommande datum är ännu inte publicerade. Hör av dig till Fabian om du vill bli uppdaterad när nästa samskapardag annonseras.
+:::
+
+::: {.feature-photo}
+![Samskapande på Förna](bilder/Team_3.2.1.jpg){width=100% fig-alt="Samskapande dag på Förna"}
+:::

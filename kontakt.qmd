@@ -1,17 +1,39 @@
-﻿---
-title: "kontakt"
+---
+title: "Kontakt"
 ---
 
-------------------------------------------------------------------------
-## Beställning & kontakt
+::: {.page-intro}
+# Kontakt
 
-Har du en fråga, vill boka träd eller snacka plantering?  
-Skicka ett meddelande eller slå en signal: **0766-148318**  
+Hör av dig om du vill beställa växter, boka tjänster, delta i samskapardagar eller bara veta mer om Förna.
+:::
 
-**Betalning?** Det löser vi på plats – kontant, Swish eller faktura.  
+::: {.info-grid}
+::: {.contact-card}
+## Fabian Ryft
 
-📍 **Hitta hit:** Bästekille Oraväg 17, Kivik  
-Kom förbi om du vill snacka nötter, rötter eller drömmen om ett ätbart landskap.
+För frågor om samskapardagar, trädgårdstjänster och etablering av odlingssystem.
 
+- Ring eller sms:a `0766-148318`
+:::
+::: {.contact-card}
+## Gustaf Blom
 
+För frågor om växthuset, plantskolan och den annuella odlingen.
 
+- Ring eller sms:a `0790-183550`
+:::
+::: {.contact-card}
+## Hitta hit
+
+Förna Matskogar  
+Bästekille Oraväg 17  
+277 35 Kivik
+:::
+:::
+
+::: {.section-block}
+## Beställning
+
+Vi föredrar förbeställning, särskilt vid större köp, så att vi hinner förbereda växterna för ett smidigt överlämnande. Vid mindre inköp eller upphämtning är du välkommen att höra av dig via telefon, sms eller mejl inför ditt besök.
+:::
