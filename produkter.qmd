@@ -20,7 +20,7 @@ I vår plantskola odlar vi växter som passar långsiktiga, hållbara perenna od
 - Vi säljer våra växter på barrot under planteringsperioderna `1 mars till 31 maj` och `1 september till 30 november`.
 - Vid köp utanför dessa tider går det bra att höra av sig via telefon eller mejl.
 - Vi föredrar förbeställning, särskilt vid större köp.
-- Vill du vara säker på att växterna inte tagit slut går det bra att förbeställa under hela året.
+- Vi bekräftar tillgänglighet i samband med beställning, och det går bra att förbeställa under hela året.
 - Vid upphämtning delar vi gärna med oss av praktiska tips för etablering och förvaltning.
 :::
 ::: {.content-card}
@@ -50,7 +50,6 @@ I vår plantskola odlar vi växter som passar långsiktiga, hållbara perenna od
         <th scope="col">Växt</th>
         <th scope="col">Typ</th>
         <th scope="col">Pris</th>
-        <th scope="col">Lager</th>
         <th scope="col">Lägg i varukorg</th>
       </tr>
     </thead>
@@ -59,35 +58,30 @@ I vår plantskola odlar vi växter som passar långsiktiga, hållbara perenna od
         <td>Lungrot / Gode henriks målla</td>
         <td>Rotklump</td>
         <td>50 kr</td>
-        <td>50 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Lungrot / Gode henriks målla"><button type="button" class="qty-btn" data-action="minus" data-id="lungrot" aria-label="Minska antal Lungrot / Gode henriks målla">-</button><output class="qty-value js-cart-qty" data-id="lungrot">0</output><button type="button" class="qty-btn" data-action="plus" data-id="lungrot" aria-label="Öka antal Lungrot / Gode henriks målla">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="stravsolros" data-name="Strävsolros" data-size="Knöl" data-price-sek="20">
         <td>Strävsolros</td>
         <td>Knöl</td>
         <td>20 kr</td>
-        <td>150 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Strävsolros"><button type="button" class="qty-btn" data-action="minus" data-id="stravsolros" aria-label="Minska antal Strävsolros">-</button><output class="qty-value js-cart-qty" data-id="stravsolros">0</output><button type="button" class="qty-btn" data-action="plus" data-id="stravsolros" aria-label="Öka antal Strävsolros">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="libbsticka" data-name="Libbsticka" data-size="Rotklump" data-price-sek="50">
         <td>Libbsticka</td>
         <td>Rotklump</td>
         <td>50 kr</td>
-        <td>40 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Libbsticka"><button type="button" class="qty-btn" data-action="minus" data-id="libbsticka" aria-label="Minska antal Libbsticka">-</button><output class="qty-value js-cart-qty" data-id="libbsticka">0</output><button type="button" class="qty-btn" data-action="plus" data-id="libbsticka" aria-label="Öka antal Libbsticka">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="vallort" data-name="Vallört Bocking 14" data-size="Rotbit" data-price-sek="20">
         <td>Vallört, Bocking 14</td>
         <td>Rotbit</td>
         <td>20 kr</td>
-        <td>800 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Vallört, Bocking 14"><button type="button" class="qty-btn" data-action="minus" data-id="vallort" aria-label="Minska antal Vallört, Bocking 14">-</button><output class="qty-value js-cart-qty" data-id="vallort">0</output><button type="button" class="qty-btn" data-action="plus" data-id="vallort" aria-label="Öka antal Vallört, Bocking 14">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="luftlok" data-name="Luftlök" data-size="Lök" data-price-sek="20">
         <td>Luftlök</td>
         <td>Lök</td>
         <td>20 kr</td>
-        <td>40 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Luftlök"><button type="button" class="qty-btn" data-action="minus" data-id="luftlok" aria-label="Minska antal Luftlök">-</button><output class="qty-value js-cart-qty" data-id="luftlok">0</output><button type="button" class="qty-btn" data-action="plus" data-id="luftlok" aria-label="Öka antal Luftlök">+</button></div></td>
       </tr>
     </tbody>
@@ -97,7 +91,7 @@ I vår plantskola odlar vi växter som passar långsiktiga, hållbara perenna od
 
 ## Bärbuskar
 
-Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individernas karaktär i samband med beställning. Sortimentet finns i tre storlekar, `S-M-L`, men lagersaldot i underlaget är för närvarande `0` på samtliga listade bärbuskar. Hör gärna av dig om du vill förbeställa framtida plantor.
+Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individernas karaktär i samband med beställning. Sortimentet finns i tre storlekar, `S-M-L`, och uppdateras löpande. Hör gärna av dig om du vill förbeställa framtida plantor.
 
 ## Fruktträd
 
@@ -114,7 +108,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <th scope="col">Storlek</th>
         <th scope="col">Pris</th>
         <th scope="col">Beskrivning</th>
-        <th scope="col">Lager</th>
         <th scope="col">Lägg i varukorg</th>
       </tr>
     </thead>
@@ -124,7 +117,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>S</td>
         <td>50 kr</td>
         <td>Klon, beräknad höjd 8-12 m</td>
-        <td>170 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Äpple grundstam S"><button type="button" class="qty-btn" data-action="minus" data-id="apple-grundstam-s" aria-label="Minska antal Äpple grundstam S">-</button><output class="qty-value js-cart-qty" data-id="apple-grundstam-s">0</output><button type="button" class="qty-btn" data-action="plus" data-id="apple-grundstam-s" aria-label="Öka antal Äpple grundstam S">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="apple-grundstam-m" data-name="Äpple grundstam" data-size="M" data-price-sek="75">
@@ -132,7 +124,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>M</td>
         <td>75 kr</td>
         <td>Klon, beräknad höjd 8-12 m</td>
-        <td>170 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Äpple grundstam M"><button type="button" class="qty-btn" data-action="minus" data-id="apple-grundstam-m" aria-label="Minska antal Äpple grundstam M">-</button><output class="qty-value js-cart-qty" data-id="apple-grundstam-m">0</output><button type="button" class="qty-btn" data-action="plus" data-id="apple-grundstam-m" aria-label="Öka antal Äpple grundstam M">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="apple-grundstam-l" data-name="Äpple grundstam" data-size="L" data-price-sek="100">
@@ -140,7 +131,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>L</td>
         <td>100 kr</td>
         <td>Klon, beräknad höjd 8-12 m</td>
-        <td>170 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Äpple grundstam L"><button type="button" class="qty-btn" data-action="minus" data-id="apple-grundstam-l" aria-label="Minska antal Äpple grundstam L">-</button><output class="qty-value js-cart-qty" data-id="apple-grundstam-l">0</output><button type="button" class="qty-btn" data-action="plus" data-id="apple-grundstam-l" aria-label="Öka antal Äpple grundstam L">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="korsbarsplommon-s" data-name="Körsbärsplommon" data-size="S" data-price-sek="50">
@@ -148,7 +138,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>S</td>
         <td>50 kr</td>
         <td>Frösådd, beräknad höjd 4-8 m</td>
-        <td>50 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Körsbärsplommon S"><button type="button" class="qty-btn" data-action="minus" data-id="korsbarsplommon-s" aria-label="Minska antal Körsbärsplommon S">-</button><output class="qty-value js-cart-qty" data-id="korsbarsplommon-s">0</output><button type="button" class="qty-btn" data-action="plus" data-id="korsbarsplommon-s" aria-label="Öka antal Körsbärsplommon S">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="korsbarsplommon-m" data-name="Körsbärsplommon" data-size="M" data-price-sek="75">
@@ -156,7 +145,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>M</td>
         <td>75 kr</td>
         <td>Frösådd, beräknad höjd 4-8 m</td>
-        <td>50 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Körsbärsplommon M"><button type="button" class="qty-btn" data-action="minus" data-id="korsbarsplommon-m" aria-label="Minska antal Körsbärsplommon M">-</button><output class="qty-value js-cart-qty" data-id="korsbarsplommon-m">0</output><button type="button" class="qty-btn" data-action="plus" data-id="korsbarsplommon-m" aria-label="Öka antal Körsbärsplommon M">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="korsbarsplommon-l" data-name="Körsbärsplommon" data-size="L" data-price-sek="100">
@@ -164,7 +152,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>L</td>
         <td>100 kr</td>
         <td>Frösådd, beräknad höjd 4-8 m</td>
-        <td>50 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Körsbärsplommon L"><button type="button" class="qty-btn" data-action="minus" data-id="korsbarsplommon-l" aria-label="Minska antal Körsbärsplommon L">-</button><output class="qty-value js-cart-qty" data-id="korsbarsplommon-l">0</output><button type="button" class="qty-btn" data-action="plus" data-id="korsbarsplommon-l" aria-label="Öka antal Körsbärsplommon L">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="plommon-grundstam-s" data-name="Plommon grundstam" data-size="S" data-price-sek="50">
@@ -172,7 +159,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>S</td>
         <td>50 kr</td>
         <td>Klon, höjd och diameter ännu okända</td>
-        <td>55 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Plommon grundstam S"><button type="button" class="qty-btn" data-action="minus" data-id="plommon-grundstam-s" aria-label="Minska antal Plommon grundstam S">-</button><output class="qty-value js-cart-qty" data-id="plommon-grundstam-s">0</output><button type="button" class="qty-btn" data-action="plus" data-id="plommon-grundstam-s" aria-label="Öka antal Plommon grundstam S">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="plommon-grundstam-m" data-name="Plommon grundstam" data-size="M" data-price-sek="75">
@@ -180,7 +166,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>M</td>
         <td>75 kr</td>
         <td>Klon, höjd och diameter ännu okända</td>
-        <td>55 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Plommon grundstam M"><button type="button" class="qty-btn" data-action="minus" data-id="plommon-grundstam-m" aria-label="Minska antal Plommon grundstam M">-</button><output class="qty-value js-cart-qty" data-id="plommon-grundstam-m">0</output><button type="button" class="qty-btn" data-action="plus" data-id="plommon-grundstam-m" aria-label="Öka antal Plommon grundstam M">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="plommon-grundstam-l" data-name="Plommon grundstam" data-size="L" data-price-sek="100">
@@ -188,7 +173,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>L</td>
         <td>100 kr</td>
         <td>Klon, höjd och diameter ännu okända</td>
-        <td>55 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Plommon grundstam L"><button type="button" class="qty-btn" data-action="minus" data-id="plommon-grundstam-l" aria-label="Minska antal Plommon grundstam L">-</button><output class="qty-value js-cart-qty" data-id="plommon-grundstam-l">0</output><button type="button" class="qty-btn" data-action="plus" data-id="plommon-grundstam-l" aria-label="Öka antal Plommon grundstam L">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="paron-grundstam-s" data-name="Päron grundstam" data-size="S" data-price-sek="50">
@@ -196,7 +180,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>S</td>
         <td>50 kr</td>
         <td>Klon, beräknad höjd 6 m+</td>
-        <td>50 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Päron grundstam S"><button type="button" class="qty-btn" data-action="minus" data-id="paron-grundstam-s" aria-label="Minska antal Päron grundstam S">-</button><output class="qty-value js-cart-qty" data-id="paron-grundstam-s">0</output><button type="button" class="qty-btn" data-action="plus" data-id="paron-grundstam-s" aria-label="Öka antal Päron grundstam S">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="paron-grundstam-m" data-name="Päron grundstam" data-size="M" data-price-sek="75">
@@ -204,7 +187,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>M</td>
         <td>75 kr</td>
         <td>Klon, beräknad höjd 6 m+</td>
-        <td>50 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Päron grundstam M"><button type="button" class="qty-btn" data-action="minus" data-id="paron-grundstam-m" aria-label="Minska antal Päron grundstam M">-</button><output class="qty-value js-cart-qty" data-id="paron-grundstam-m">0</output><button type="button" class="qty-btn" data-action="plus" data-id="paron-grundstam-m" aria-label="Öka antal Päron grundstam M">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="paron-grundstam-l" data-name="Päron grundstam" data-size="L" data-price-sek="100">
@@ -212,7 +194,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>L</td>
         <td>100 kr</td>
         <td>Klon, beräknad höjd 6 m+</td>
-        <td>50 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Päron grundstam L"><button type="button" class="qty-btn" data-action="minus" data-id="paron-grundstam-l" aria-label="Minska antal Päron grundstam L">-</button><output class="qty-value js-cart-qty" data-id="paron-grundstam-l">0</output><button type="button" class="qty-btn" data-action="plus" data-id="paron-grundstam-l" aria-label="Öka antal Päron grundstam L">+</button></div></td>
       </tr>
     </tbody>
@@ -235,7 +216,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <th scope="col">Storlek</th>
         <th scope="col">Pris</th>
         <th scope="col">Beskrivning</th>
-        <th scope="col">Lager</th>
         <th scope="col">Lägg i varukorg</th>
       </tr>
     </thead>
@@ -245,7 +225,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>S</td>
         <td>50 kr</td>
         <td>10-30 cm, 1 år, frösådd blandat frö</td>
-        <td>700 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Valnöt S"><button type="button" class="qty-btn" data-action="minus" data-id="valnot-s" aria-label="Minska antal Valnöt S">-</button><output class="qty-value js-cart-qty" data-id="valnot-s">0</output><button type="button" class="qty-btn" data-action="plus" data-id="valnot-s" aria-label="Öka antal Valnöt S">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="valnot-m" data-name="Valnöt" data-size="M" data-price-sek="75">
@@ -253,7 +232,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>M</td>
         <td>75 kr</td>
         <td>30+ cm, 1 år, selekterad frösådd från stort frö</td>
-        <td>300 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Valnöt M"><button type="button" class="qty-btn" data-action="minus" data-id="valnot-m" aria-label="Minska antal Valnöt M">-</button><output class="qty-value js-cart-qty" data-id="valnot-m">0</output><button type="button" class="qty-btn" data-action="plus" data-id="valnot-m" aria-label="Öka antal Valnöt M">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="valnot-l" data-name="Valnöt" data-size="L" data-price-sek="200">
@@ -261,7 +239,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>L</td>
         <td>200 kr</td>
         <td>30-40 cm, 2 år, frösådd blandat frö</td>
-        <td>30 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Valnöt L"><button type="button" class="qty-btn" data-action="minus" data-id="valnot-l" aria-label="Minska antal Valnöt L">-</button><output class="qty-value js-cart-qty" data-id="valnot-l">0</output><button type="button" class="qty-btn" data-action="plus" data-id="valnot-l" aria-label="Öka antal Valnöt L">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="valnot-xl" data-name="Valnöt" data-size="XL" data-price-sek="300">
@@ -269,7 +246,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>XL</td>
         <td>300 kr</td>
         <td>40+ cm, 2 år, frösådd blandat frö</td>
-        <td>10 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Valnöt XL"><button type="button" class="qty-btn" data-action="minus" data-id="valnot-xl" aria-label="Minska antal Valnöt XL">-</button><output class="qty-value js-cart-qty" data-id="valnot-xl">0</output><button type="button" class="qty-btn" data-action="plus" data-id="valnot-xl" aria-label="Öka antal Valnöt XL">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="kastanj-s" data-name="Äkta kastanj" data-size="S" data-price-sek="50">
@@ -277,7 +253,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>S</td>
         <td>50 kr</td>
         <td>10-30 cm, frösådd blandat frö</td>
-        <td>150 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Äkta kastanj S"><button type="button" class="qty-btn" data-action="minus" data-id="kastanj-s" aria-label="Minska antal Äkta kastanj S">-</button><output class="qty-value js-cart-qty" data-id="kastanj-s">0</output><button type="button" class="qty-btn" data-action="plus" data-id="kastanj-s" aria-label="Öka antal Äkta kastanj S">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="kastanj-m" data-name="Äkta kastanj" data-size="M" data-price-sek="75">
@@ -285,7 +260,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
         <td>M</td>
         <td>75 kr</td>
         <td>30+ cm, frösådd blandat frö</td>
-        <td>100 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Äkta kastanj M"><button type="button" class="qty-btn" data-action="minus" data-id="kastanj-m" aria-label="Minska antal Äkta kastanj M">-</button><output class="qty-value js-cart-qty" data-id="kastanj-m">0</output><button type="button" class="qty-btn" data-action="plus" data-id="kastanj-m" aria-label="Öka antal Äkta kastanj M">+</button></div></td>
       </tr>
     </tbody>
@@ -305,7 +279,6 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
       <tr>
         <th scope="col">Produkt</th>
         <th scope="col">Pris</th>
-        <th scope="col">Lager</th>
         <th scope="col">Lägg i varukorg</th>
       </tr>
     </thead>
@@ -313,43 +286,36 @@ Vi väljer att sälja bärbuskar utan namnsort och beskriver istället individer
       <tr class="js-product-row" data-id="stalror" data-name="Stålrör till stolp" data-size="Per meter" data-price-sek="25">
         <td>Stålrör till stolp, 50 mm diameter x 4 mm gods</td>
         <td>25 kr / m</td>
-        <td>500 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Stålrör till stolp"><button type="button" class="qty-btn" data-action="minus" data-id="stalror" aria-label="Minska antal Stålrör till stolp">-</button><output class="qty-value js-cart-qty" data-id="stalror">0</output><button type="button" class="qty-btn" data-action="plus" data-id="stalror" aria-label="Öka antal Stålrör till stolp">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="armeringsjarn" data-name="Armeringsjärn 16 mm" data-size="Per meter" data-price-sek="20">
         <td>Armeringsjärn 16 mm</td>
         <td>20 kr / m</td>
-        <td>100 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Armeringsjärn 16 mm"><button type="button" class="qty-btn" data-action="minus" data-id="armeringsjarn" aria-label="Minska antal Armeringsjärn 16 mm">-</button><output class="qty-value js-cart-qty" data-id="armeringsjarn">0</output><button type="button" class="qty-btn" data-action="plus" data-id="armeringsjarn" aria-label="Öka antal Armeringsjärn 16 mm">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="viltstangsel" data-name="Viltstängsel 2 m" data-size="Per meter" data-price-sek="13">
         <td>Viltstängsel 2 m</td>
         <td>13 kr / m</td>
-        <td>75 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Viltstängsel 2 m"><button type="button" class="qty-btn" data-action="minus" data-id="viltstangsel" aria-label="Minska antal Viltstängsel 2 m">-</button><output class="qty-value js-cart-qty" data-id="viltstangsel">0</output><button type="button" class="qty-btn" data-action="plus" data-id="viltstangsel" aria-label="Öka antal Viltstängsel 2 m">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="odlingsror" data-name="Transparenta odlingsrör" data-size="Per styck" data-price-sek="60">
         <td>Transparenta odlingsrör för unga träd, ca 100 mm diameter</td>
         <td>60 kr / st</td>
-        <td>60 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Transparenta odlingsrör"><button type="button" class="qty-btn" data-action="minus" data-id="odlingsror" aria-label="Minska antal Transparenta odlingsrör">-</button><output class="qty-value js-cart-qty" data-id="odlingsror">0</output><button type="button" class="qty-btn" data-action="plus" data-id="odlingsror" aria-label="Öka antal Transparenta odlingsrör">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="putsnat" data-name="Galvaniserat putsnät" data-size="Per meter" data-price-sek="45">
         <td>Galvaniserat putsnät 19 x 19 mm</td>
         <td>45 kr / m</td>
-        <td>25 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Galvaniserat putsnät"><button type="button" class="qty-btn" data-action="minus" data-id="putsnat" aria-label="Minska antal Galvaniserat putsnät">-</button><output class="qty-value js-cart-qty" data-id="putsnat">0</output><button type="button" class="qty-btn" data-action="plus" data-id="putsnat" aria-label="Öka antal Galvaniserat putsnät">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="ensilagebal" data-name="Ensilagebal möglig" data-size="Per styck" data-price-sek="300">
         <td>Ensilagebal, möglig</td>
         <td>300 kr / st</td>
-        <td>15 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Ensilagebal, möglig"><button type="button" class="qty-btn" data-action="minus" data-id="ensilagebal" aria-label="Minska antal Ensilagebal, möglig">-</button><output class="qty-value js-cart-qty" data-id="ensilagebal">0</output><button type="button" class="qty-btn" data-action="plus" data-id="ensilagebal" aria-label="Öka antal Ensilagebal, möglig">+</button></div></td>
       </tr>
       <tr class="js-product-row" data-id="markkrok" data-name="Markkrok stor" data-size="Per styck" data-price-sek="15">
         <td>Markkrok stor, 300 mm lång och 16 mm tjock</td>
         <td>15 kr / st</td>
-        <td>100 st</td>
         <td><div class="qty-control" role="group" aria-label="Antal Markkrok stor"><button type="button" class="qty-btn" data-action="minus" data-id="markkrok" aria-label="Minska antal Markkrok stor">-</button><output class="qty-value js-cart-qty" data-id="markkrok">0</output><button type="button" class="qty-btn" data-action="plus" data-id="markkrok" aria-label="Öka antal Markkrok stor">+</button></div></td>
       </tr>
     </tbody>

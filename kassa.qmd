@@ -18,7 +18,9 @@ Beställningen skickas som en förfrågan via mejl eller öppnas i din mejlklien
     <section id="cart-overview" class="cart-overview" hidden></section>
     <ul id="cart-items" class="cart-list"></ul>
     <p id="cart-empty" class="cart-empty">Varukorgen är tom.</p>
-    <p id="cart-total" class="cart-total">Totalt: 0 kr</p>
+    <p id="cart-subtotal" class="cart-summary-line" hidden>Delsumma: 0 kr</p>
+    <p id="cart-discount" class="cart-summary-line cart-summary-line--discount" hidden></p>
+    <p id="cart-total" class="cart-total">Totalt att betala vid upphämtning: 0 kr</p>
     <div class="cart-actions">
       <button id="cart-clear" type="button" class="cart-clear">Töm varukorgen</button>
     </div>

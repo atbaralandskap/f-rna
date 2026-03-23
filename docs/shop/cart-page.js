@@ -86,10 +86,40 @@ function renderOverview(summary, overviewEl) {
   }
 
   overviewEl.hidden = false;
-  overviewEl.innerHTML = [
+  const pills = [
     `<span class="cart-pill">${summary.itemCount} st totalt</span>`,
     `<span class="cart-pill">${summary.distinctCount} olika produkter</span>`,
-  ].join("");
+  ];
+
+  if (summary.discountSek > 0) {
+    pills.push(
+      `<span class="cart-pill">${summary.discountPercent} % mängdrabatt aktiv</span>`
+    );
+  }
+
+  overviewEl.innerHTML = pills.join("");
+}
+
+function renderPricing(summary, subtotalEl, discountEl, totalEl) {
+  if (!totalEl) return;
+
+  if (subtotalEl) {
+    subtotalEl.hidden = summary.itemCount <= 0 || summary.discountSek <= 0;
+    subtotalEl.textContent = `Delsumma: ${formatSek(summary.subtotalSek)}`;
+  }
+
+  if (discountEl) {
+    discountEl.hidden = summary.discountSek <= 0;
+    discountEl.textContent =
+      summary.discountSek > 0
+        ? `Mängdrabatt (${summary.discountPercent} % vid ${summary.discountMinimumQty}+ varor): -${formatSek(summary.discountSek)}`
+        : "";
+  }
+
+  totalEl.textContent =
+    summary.itemCount > 0
+      ? `Totalt att betala vid upphämtning: ${formatSek(summary.totalSek)}`
+      : "Totalt att betala vid upphämtning: 0 kr";
 }
 
 function renderCart({
@@ -97,6 +127,8 @@ function renderCart({
   summary,
   cartItemsEl,
   cartEmptyEl,
+  cartSubtotalEl,
+  cartDiscountEl,
   cartTotalEl,
   cartOverviewEl,
   buyBtn,
@@ -106,10 +138,10 @@ function renderCart({
 
   cartItemsEl.replaceChildren(...cart.map(createCartItem));
   renderOverview(summary, cartOverviewEl);
+  renderPricing(summary, cartSubtotalEl, cartDiscountEl, cartTotalEl);
 
   const empty = cart.length === 0;
   cartEmptyEl.hidden = !empty;
-  cartTotalEl.textContent = `Totalt: ${formatSek(summary.totalSek)}`;
 
   if (buyBtn) buyBtn.disabled = empty;
   if (clearBtn) clearBtn.disabled = empty;
@@ -137,6 +169,8 @@ function handleCartAction(action, id) {
 export function initCartPage() {
   const cartItemsEl = document.getElementById("cart-items");
   const cartEmptyEl = document.getElementById("cart-empty");
+  const cartSubtotalEl = document.getElementById("cart-subtotal");
+  const cartDiscountEl = document.getElementById("cart-discount");
   const cartTotalEl = document.getElementById("cart-total");
   const cartOverviewEl = document.getElementById("cart-overview");
   const buyBtn = document.getElementById("checkout-submit");
@@ -160,6 +194,8 @@ export function initCartPage() {
       summary,
       cartItemsEl,
       cartEmptyEl,
+      cartSubtotalEl,
+      cartDiscountEl,
       cartTotalEl,
       cartOverviewEl,
       buyBtn,
@@ -173,3 +209,4 @@ if (document.readyState === "loading") {
 } else {
   initCartPage();
 }
+

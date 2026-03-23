@@ -10,6 +10,7 @@ function getConfig() {
   return {
     sellerName: config.sellerName ?? "Fabian",
     sellerEmail: config.sellerEmail ?? "",
+    internalCopyEmail: config.internalCopyEmail ?? "",
     pickupLocation: config.pickupLocation ?? "Bästekille i växthuset",
     pickupNote:
       config.pickupNote ??
@@ -65,6 +66,19 @@ function toLinesText(cart) {
     .join("\n");
 }
 
+function toPricingText(summary) {
+  const lines = [`Delsumma: ${formatSek(summary.subtotalSek)}`];
+
+  if (summary.discountSek > 0) {
+    lines.push(
+      `Mängdrabatt (${summary.discountPercent} % vid ${summary.discountMinimumQty}+ varor): -${formatSek(summary.discountSek)}`
+    );
+  }
+
+  lines.push(`Totalt att betala vid upphämtning: ${formatSek(summary.totalSek)}`);
+  return lines.join("\n");
+}
+
 function buildOrderPayload(formData) {
   const cart = getCart();
   const summary = getCartSummary(cart);
@@ -81,6 +95,7 @@ function buildOrderPayload(formData) {
     cart,
     summary,
     linesText: toLinesText(cart),
+    pricingText: toPricingText(summary),
   };
 }
 
@@ -157,6 +172,11 @@ async function submitViaEmailJs(config, payload) {
     customer_phone: payload.customer.phone || "Ej angivet",
     customer_note: payload.customer.note || "Ingen kommentar",
     order_lines: payload.linesText,
+    order_subtotal: formatSek(payload.summary.subtotalSek),
+    order_discount: formatSek(payload.summary.discountSek),
+    order_discount_rate:
+      payload.summary.discountSek > 0 ? `${payload.summary.discountPercent} %` : "0 %",
+    order_pricing: payload.pricingText,
     order_total: formatSek(payload.summary.totalSek),
     pickup_location: config.pickupLocation,
     pickup_note: config.pickupNote,
@@ -175,30 +195,30 @@ async function submitViaEmailJs(config, payload) {
 }
 
 function submitViaMailto(config, payload) {
-  const subject = encodeURIComponent(
-    `Beställning ${payload.id} från ${payload.customer.name}`
-  );
+  const subject = `Beställning ${payload.id} från ${payload.customer.name}`;
+  const body = [
+    `Beställning: ${payload.id}`,
+    `Skapad: ${payload.createdAtIso}`,
+    "",
+    `Namn: ${payload.customer.name}`,
+    `E-post: ${payload.customer.email}`,
+    `Telefon: ${payload.customer.phone || "Ej angivet"}`,
+    `Meddelande: ${payload.customer.note || "Ingen kommentar"}`,
+    "",
+    "Beställda varor:",
+    payload.linesText,
+    "",
+    payload.pricingText,
+    "",
+    `Upphämtning: ${config.pickupNote}`,
+  ].join("\n");
 
-  const body = encodeURIComponent(
-    [
-      `Beställning: ${payload.id}`,
-      `Skapad: ${payload.createdAtIso}`,
-      "",
-      `Namn: ${payload.customer.name}`,
-      `E-post: ${payload.customer.email}`,
-      `Telefon: ${payload.customer.phone || "Ej angivet"}`,
-      `Meddelande: ${payload.customer.note || "Ingen kommentar"}`,
-      "",
-      "Beställda varor:",
-      payload.linesText,
-      "",
-      `Totalt: ${formatSek(payload.summary.totalSek)}`,
-      "",
-      `Upphämtning: ${config.pickupNote}`,
-    ].join("\n")
-  );
+  const params = new URLSearchParams({ subject, body });
+  if (config.internalCopyEmail.includes("@")) {
+    params.set("bcc", config.internalCopyEmail);
+  }
 
-  window.location.href = `mailto:${config.sellerEmail}?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:${config.sellerEmail}?${params.toString()}`;
 }
 
 function renderConfigStatus(config, mode, statusEl, introEl, submitButton) {
@@ -224,7 +244,7 @@ function renderConfigStatus(config, mode, statusEl, introEl, submitButton) {
     );
     if (introEl) {
       introEl.textContent =
-        "Fyll i dina uppgifter så förbereds ett mejl med din beställning i din egen mejlklient.";
+        "Fyll i dina uppgifter så förbereds ett mejl med din beställning i din egen mejlklient. Mejlet du skickar fungerar som din orderkopia tills Fabian återkopplar.";
     }
     if (submitButton) submitButton.textContent = "Öppna mejl med beställning";
     return;
@@ -306,7 +326,7 @@ export function initCheckoutPage() {
         setFormMessage(
           message,
           "success",
-          `Mejlutkast för ${payload.id} öppnat. Skicka det i din mejlklient för att slutföra beställningen.`
+          `Mejlutkast för ${payload.id} öppnat. När du skickat mejlet fungerar det som din orderkopia tills Fabian bekräftar beställningen.`
         );
       }
     } catch (error) {
@@ -326,3 +346,4 @@ if (document.readyState === "loading") {
 } else {
   initCheckoutPage();
 }
+

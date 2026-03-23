@@ -45,10 +45,15 @@ function renderCartStatus(summary) {
     return;
   }
 
-  const label = summary.itemCount === 1 ? "planta" : "plantor";
+  const label = summary.itemCount === 1 ? "artikel" : "artiklar";
+  const totalCopy =
+    summary.discountSek > 0
+      ? `${formatSek(summary.totalSek)} efter ${summary.discountPercent} % mängdrabatt`
+      : formatSek(summary.totalSek);
+
   statusEl.innerHTML = [
     '<p class="catalog-cart-copy">',
-    `I varukorgen: <strong>${summary.itemCount} ${label}</strong> (${formatSek(summary.totalSek)})`,
+    `I varukorgen: <strong>${summary.itemCount} ${label}</strong> (${totalCopy})`,
     "</p>",
     '<a class="catalog-cart-link" href="kassa.html">Gå till köp</a>',
   ].join("");

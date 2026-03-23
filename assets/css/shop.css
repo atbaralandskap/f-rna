@@ -180,6 +180,15 @@
   font-weight: 700;
 }
 
+.cart-summary-line {
+  margin: 0.45rem 0 0;
+  font-size: 0.98rem;
+}
+
+.cart-summary-line--discount {
+  color: #2f6b2f;
+  font-weight: 700;
+}
 .shop-note {
   margin: 0.4rem 0 0;
   color: #433b31;

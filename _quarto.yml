@@ -40,5 +40,6 @@ website:
 format:
   html:
     theme: cosmo       # Bootstrap-tema, byt gärna till "minty", "flatly", osv.
-    css: styles.css    # Din egen CSS (valfritt)
+    css: site-theme.css    # Versionsnamn för att undvika cacheproblem
     toc: false         # Ingen innehållsförteckning i sidokolumnen
+    title-block: false

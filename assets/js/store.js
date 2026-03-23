@@ -1,6 +1,11 @@
 const STORAGE_KEY = "forna_cart_v1";
 const CART_EVENT = "forna:cart-updated";
-
+const DISCOUNT_TIERS = [
+  { minimumQty: 100, rate: 0.4 },
+  { minimumQty: 50, rate: 0.3 },
+  { minimumQty: 10, rate: 0.2 },
+  { minimumQty: 5, rate: 0.1 },
+];
 function toInt(value, fallback = 0) {
   const parsed = Number.parseInt(value, 10);
   return Number.isFinite(parsed) ? parsed : fallback;
@@ -11,6 +16,14 @@ function toPrice(value) {
   return Number.isFinite(parsed) ? Math.max(0, parsed) : 0;
 }
 
+function roundSek(value) {
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? Math.round(parsed) : 0;
+}
+
+function getDiscountTier(itemCount) {
+  return DISCOUNT_TIERS.find((tier) => itemCount >= tier.minimumQty) ?? null;
+}
 function normalizeCartItem(item) {
   if (!item || typeof item.id !== "string" || item.id.trim() === "") {
     return null;
@@ -158,16 +171,27 @@ export function updateCartQty(id, qty) {
 
 export function getCartSummary(cart = getCart()) {
   let itemCount = 0;
-  let totalSek = 0;
+  let subtotalSek = 0;
 
   for (const item of cart) {
     itemCount += item.qty;
-    totalSek += item.qty * item.priceSek;
+    subtotalSek += item.qty * item.priceSek;
   }
+
+  const discountTier = getDiscountTier(itemCount);
+  const discountRate = discountTier?.rate ?? 0;
+  const discountPercent = Math.round(discountRate * 100);
+  const discountSek = roundSek(subtotalSek * discountRate);
+  const totalSek = Math.max(0, subtotalSek - discountSek);
 
   return {
     itemCount,
     distinctCount: cart.length,
+    subtotalSek,
+    discountRate,
+    discountPercent,
+    discountMinimumQty: discountTier?.minimumQty ?? 0,
+    discountSek,
     totalSek,
   };
 }
