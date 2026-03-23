@@ -55,37 +55,49 @@ function makeOrderId() {
   return `FORNA-${timestamp}-${suffix}`;
 }
 
+function formatOrderDateTime(isoString) {
+  const date = new Date(isoString);
+  if (Number.isNaN(date.getTime())) {
+    return isoString;
+  }
+
+  return new Intl.DateTimeFormat("sv-SE", {
+    dateStyle: "long",
+    timeStyle: "short",
+  }).format(date);
+}
 function toLinesText(cart) {
   return cart
     .map(
       (item) =>
-        `${item.name} (${item.size || "-"}) x ${item.qty} = ${formatSek(
+        `- ${item.name} (${item.size || "-"}) x ${item.qty} = ${formatSek(
           item.qty * item.priceSek
         )}`
     )
     .join("\n");
 }
-
 function toPricingText(summary) {
-  const lines = [`Delsumma: ${formatSek(summary.subtotalSek)}`];
+  const lines = [`- Delsumma: ${formatSek(summary.subtotalSek)}`];
 
   if (summary.discountSek > 0) {
     lines.push(
-      `Mängdrabatt (${summary.discountPercent} % vid ${summary.discountMinimumQty}+ varor): -${formatSek(summary.discountSek)}`
+      `- Mängdrabatt (${summary.discountPercent} % vid ${summary.discountMinimumQty}+ varor): -${formatSek(summary.discountSek)}`
     );
   }
 
-  lines.push(`Totalt att betala vid upphämtning: ${formatSek(summary.totalSek)}`);
+  lines.push(`- Totalt att betala vid upphämtning: ${formatSek(summary.totalSek)}`);
   return lines.join("\n");
 }
-
 function buildOrderPayload(formData) {
   const cart = getCart();
   const summary = getCartSummary(cart);
 
+  const createdAtIso = new Date().toISOString();
+
   return {
     id: makeOrderId(),
-    createdAtIso: new Date().toISOString(),
+    createdAtIso,
+    createdAtText: formatOrderDateTime(createdAtIso),
     customer: {
       name: String(formData.get("name") || "").trim(),
       email: String(formData.get("email") || "").trim(),
@@ -167,6 +179,7 @@ async function submitViaEmailJs(config, payload) {
   const baseParams = {
     order_id: payload.id,
     order_created_at: payload.createdAtIso,
+    order_created_at_display: payload.createdAtText,
     customer_name: payload.customer.name,
     customer_email: payload.customer.email,
     customer_phone: payload.customer.phone || "Ej angivet",
@@ -197,20 +210,35 @@ async function submitViaEmailJs(config, payload) {
 function submitViaMailto(config, payload) {
   const subject = `Beställning ${payload.id} från ${payload.customer.name}`;
   const body = [
-    `Beställning: ${payload.id}`,
-    `Skapad: ${payload.createdAtIso}`,
+    "Hej Fabian,",
     "",
-    `Namn: ${payload.customer.name}`,
-    `E-post: ${payload.customer.email}`,
-    `Telefon: ${payload.customer.phone || "Ej angivet"}`,
-    `Meddelande: ${payload.customer.note || "Ingen kommentar"}`,
+    "Tack för att du tar emot min beställning från Förna.",
+    "Här kommer allt samlat så att det blir lätt att läsa och svara på.",
     "",
-    "Beställda varor:",
+    "Beställning",
+    `- Beställningsnummer: ${payload.id}`,
+    `- Skapad: ${payload.createdAtText}`,
+    "",
+    "Mina uppgifter",
+    `- Namn: ${payload.customer.name}`,
+    `- E-post: ${payload.customer.email}`,
+    `- Telefon: ${payload.customer.phone || "Ej angivet"}`,
+    `- Meddelande: ${payload.customer.note || "Ingen kommentar"}`,
+    "",
+    "Jag vill beställa",
     payload.linesText,
     "",
+    "Prissammanställning",
     payload.pricingText,
     "",
-    `Upphämtning: ${config.pickupNote}`,
+    "Upphämtning",
+    config.pickupNote,
+    "",
+    "Tack för allt arbete ni gör på Förna.",
+    "Jag ser fram emot att höra från dig när det är dags att hämta upp beställningen.",
+    "",
+    "Varma hälsningar,",
+    payload.customer.name,
   ].join("\n");
 
   const params = new URLSearchParams({ subject, body });
@@ -244,7 +272,7 @@ function renderConfigStatus(config, mode, statusEl, introEl, submitButton) {
     );
     if (introEl) {
       introEl.textContent =
-        "Fyll i dina uppgifter så förbereds ett mejl med din beställning i din egen mejlklient. Mejlet du skickar fungerar som din orderkopia tills Fabian återkopplar.";
+        "Fyll i dina uppgifter så förbereds ett varmt och tydligt mejl med din beställning i din egen mejlklient. Mejlet du skickar fungerar som din orderkopia tills Fabian återkopplar.";
     }
     if (submitButton) submitButton.textContent = "Öppna mejl med beställning";
     return;
@@ -326,7 +354,7 @@ export function initCheckoutPage() {
         setFormMessage(
           message,
           "success",
-          `Mejlutkast för ${payload.id} öppnat. När du skickat mejlet fungerar det som din orderkopia tills Fabian bekräftar beställningen.`
+          `Tack för beställningen. Mejlutkast för ${payload.id} öppnat. Läs gärna igenom det, skicka det när det känns bra, och använd sedan ditt skickade mejl som orderkopia tills Fabian svarar.`
         );
       }
     } catch (error) {
