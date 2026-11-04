@@ -14,7 +14,7 @@ Hör av dig om du vill beställa växter, boka tjänster, delta i samskapardagar
 
 För frågor om plantskolan, beställningar och Förnas verksamhet.
 
-- Ring eller sms:a `0766-148318`
+- Ring [0766-148318](tel:+46766148318) för frågor och beställningar.
 - Mejla `fabian.ryft@gmail.com`
 :::
 ::: {.contact-card}
@@ -34,7 +34,11 @@ Bästekille Oraväg 17
 :::
 
 ::: {.section-block}
-## Beställning
+## Plantskolan är stängd
 
-Vi föredrar förbeställning, särskilt vid större köp, så att vi hinner förbereda växterna för ett smidigt överlämnande. Vid mindre inköp eller upphämtning är du välkommen att höra av dig via telefon, sms eller mejl inför ditt besök.
+Vi tar inte längre emot beställningar via hemsidan. Ring gärna Fabian för ett gott snack. I samtalet får du veta vad som finns och kan göra en beställning. Tillgänglighet, pris och eventuell upphämtning kommer ni överens om i samtalet. Ring alltid innan ett besök.
+
+[Ring Fabian: [0766-148318]{.phone-number}](tel:+46766148318){.cta-button}
+
+[Se plantskolans prislista och bilder](produkter.qmd).
 :::

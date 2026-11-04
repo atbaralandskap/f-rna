@@ -14,8 +14,10 @@ toc: false
 
 Förna utgår från byn Bästekille, strax utanför Kivik, där vi arrenderar ett tidigare övergivet växthus sedan hösten 2023. Här bygger vi steg för steg upp en plats för plantskola, perenna odlingssystem, annuell odling och samskapande.
 
-[Se plantskolan](produkter.qmd){.cta-button}
+[Plantskolan – stängd, se prislista](produkter.qmd){.cta-button}
 [Kontakta oss](kontakt.qmd){.cta-button .cta-button--ghost}
+
+Plantskolan är stängd. Ring [Fabian på 0766-148318](tel:+46766148318) för ett gott snack och en beställning.
 :::
 :::
 
@@ -50,7 +52,7 @@ Namnet Förna pekar mot det vi vill skapa. Förnan är lagret av löv och organi
 ::: {.content-card}
 ## Det här gör vi
 
-- Vi driver en plantskola med fokus på perenna växter, nöt- och fruktträd, bärbuskar och tillbehör.
+- Plantskolan är stängd. Prislistan för perenna växter, nöt- och fruktträd, bärbuskar och tillbehör finns kvar. Ring Fabian för beställning.
 - Vi erbjuder rådgivning, etablering, skötsel och förvaltning av matskogar, alléodlingar och andra fleråriga odlingssystem.
 - Vi odlar även annuella grödor för försäljning, eget bruk och samverkan med grannar och förädlare.
 - Vi bjuder in till återkommande samskapardagar där fler kan delta i upprustning, plantering, skötsel och skörd.
@@ -95,7 +97,7 @@ En gång i månaden bjuder vi in till praktiskt arbete, samtal, soppa, kaffe och
 
 Frågor om plantskolan, beställningar och Förnas verksamhet.
 
-Ring eller sms:a `0766-148318`
+Ring [0766-148318](tel:+46766148318) för frågor och beställningar.
 
 Mejla `fabian.ryft@gmail.com`
 

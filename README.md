@@ -1,6 +1,6 @@
 # Förna
 
-Förna är en statisk Quarto-webbplats för Förnas verksamhet med information om plantskolan, tjänster, samskapardagar och ett enkelt beställningsflöde.
+Förna är en statisk Quarto-webbplats för Förnas verksamhet med information om plantskolan, tjänster och samskapardagar. Plantskolan är stängd och beställningar hänvisas till Fabian via telefon. Prislistor och bilder finns kvar.
 
 Live:
 - `https://förna.se`
@@ -10,8 +10,8 @@ Live:
 
 - Quarto för innehåll och rendering
 - GitHub Pages för publicering
-- En liten JavaScript-butik för varukorg och checkout
-- `mailto` som nuvarande beställningsflöde
+- Statiska prislistor med inaktiverade köpknappar och telefonlänkar
+- Tidigare JavaScript-butik finns kvar i källkoden men laddas inte på plantskole- eller kassasidan
 
 ## Kom igång lokalt
 
@@ -34,9 +34,9 @@ Quarto startar då en lokal server och visar en `localhost`-adress i terminalen.
 ## Viktiga filer
 
 - `index.qmd`: startsidan
-- `produkter.qmd`: plantskolan och beställningsbara produkter
+- `produkter.qmd`: stängt-besked, prislista och telefonbeställning
 - `kontakt.qmd`: kontaktuppgifter
-- `kassa.qmd`: checkout-sidan
+- `kassa.qmd`: stängt-besked och telefonnummer för gamla kassalänkar
 - `site-theme.css`: sajtens övergripande tema
 - `assets/css/shop.css`: styling för katalog, varukorg och checkout
 - `assets/js/store.js`: varukorg, summering och mängdrabatt
@@ -46,13 +46,13 @@ Quarto startar då en lokal server och visar en `localhost`-adress i terminalen.
 
 ## Beställningsflödet just nu
 
-- Kunden lägger produkter i varukorgen på `produkter.qmd`.
-- Checkouten finns på `kassa.qmd`.
-- Beställningen öppnas som ett färdigifyllt mejl till Fabian via `mailto`.
-- En dold kopia kan skickas till intern adress via `bcc`.
-- Kunden använder sitt skickade mejl som orderkopia tills Fabian svarar.
+- Plantskolan är tydligt markerad som stängd på plantskolesidan, startsidan och kontaktsidan.
+- Alla köpknappar är inaktiverade direkt i HTML.
+- Beställningar görs via telefon till Fabian på `0766-148318` (`tel:+46766148318`).
+- Prislistor, mängdrabatter och bilder finns kvar som information. Fabian bekräftar aktuella priser och tillgänglighet i samtalet.
+- `kassa.qmd` innehåller inget beställningsformulär och laddar inga butiksskript, även om besökaren har en gammal sparad varukorg.
 
-Om Förna senare vill gå över till EmailJS finns stöd för det i koden, men mallarna och nycklarna behöver då konfigureras separat.
+Tidigare kod för varukorg, `mailto` och EmailJS finns kvar för eventuell framtida återanvändning, men är inte aktiv på sidorna.
 
 ## Dokumentation
 

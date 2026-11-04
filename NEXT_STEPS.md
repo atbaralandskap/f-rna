@@ -1,23 +1,22 @@
 # Förna – Nästa steg
 
-*(Senast uppdaterad: 2026-03-23)*
+*(Senast uppdaterad: 2026-11-04)*
 
 ## Prioriterat
 
 - Gå igenom texterna på `index.qmd`, `about.qmd` och `uppdrag.qmd` med fokus på tydlighet för nya besökare.
 - Välj ut vilka nya bilder som faktiskt ska in i sajten och håll bildmappen ren från arbetsmaterial.
-- Testa hela beställningsflödet i mobilvy och i en vanlig mejlklient.
+- Stäm av prislistor och mängdrabatter med Fabian; beställningar sker nu via telefon.
 
 ## Plantskola och beställning
 
-- Avgör om Förna vill fortsätta med `mailto` ett tag till eller gå vidare till EmailJS.
-- Om EmailJS blir nästa steg: skapa mallar med samma varma ton som i nuvarande mejlutkast.
+- Behåll stängt-beskedet och telefonhänvisningen tills ett nytt beslut tas om plantskolan.
 - Fundera på om sortimentet på sikt ska flyttas till en separat datakälla i stället för att ligga direkt i `produkter.qmd`.
 
 ## Innehåll och kommunikation
 
 - Lägg till fler tydliga svar på vanliga frågor kring upphämtning, säsong och förbeställning.
-- Förtydliga när plantskolan är öppen och hur stora beställningar bäst hanteras.
+- Håll informationen om telefonbeställning och upphämtning aktuell.
 - Lägg till en enkel kalender eller uppdaterad information för samskapardagar.
 
 ## Drift och repo

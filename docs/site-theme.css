@@ -255,6 +255,26 @@ h6 {
   background: rgba(236, 229, 215, 0.92);
 }
 
+.closure-notice {
+  margin: 1rem 0 1.5rem;
+  padding: 1.2rem;
+  border: 1px solid #bcae98;
+  border-left: 6px solid #7f3e2b;
+  border-radius: 14px;
+  background: #f2e5d8;
+  scroll-margin-top: 6rem;
+}
+
+.closure-notice h1,
+.closure-notice h2 {
+  margin-top: 0;
+  color: #713522;
+}
+
+.closure-notice > :last-child {
+  margin-bottom: 0;
+}
+
 .cta-button {
   display: inline-block;
   margin-right: 0.75rem;
@@ -272,6 +292,14 @@ h6 {
 .cta-button:focus {
   color: #fff;
   background: #4b5a45;
+}
+
+.cta-button[href^="tel:"] {
+  margin-right: 0;
+}
+
+.phone-number {
+  white-space: nowrap;
 }
 
 .cta-button--ghost {

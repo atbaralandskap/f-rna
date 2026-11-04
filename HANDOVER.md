@@ -9,7 +9,7 @@ Det här dokumentet är till för nästa person som ska förvalta Förnas webbpl
 - Sajten är statisk och byggs med Quarto.
 - Publicerad webb ligger i `docs/` och hostas via GitHub Pages.
 - Innehållet skrivs främst i `.qmd`-filer i repots rot.
-- Beställningar går just nu via `mailto`, inte via en extern backend.
+- Plantskolan är stängd. Beställningar hänvisas till Fabian via telefon; webbplatsens köpflöde är inaktiverat.
 
 ## Viktiga beslut
 
@@ -57,7 +57,7 @@ xn--frna-5qa.se
 - `samskapardagar.qmd`: samskapardagar
 - `partners.qmd`: partners
 - `kontakt.qmd`: kontaktuppgifter
-- `kassa.qmd`: beställningssida
+- `kassa.qmd`: stängt-besked och telefonnummer för gamla kassalänkar
 
 ### Stil
 
@@ -67,6 +67,8 @@ xn--frna-5qa.se
 
 ### Checkout och butik
 
+Koden nedan finns kvar för eventuell framtida återanvändning. Plantskole- och kassasidan laddar inga butiksskript och kassan har inget beställningsformulär.
+
 - `assets/js/store.js`: varukorg, summering och mängdrabatt
 - `assets/js/catalog.js`: kopplar produktlistan till varukorgen
 - `shop/cart-page.js`: renderar varukorgen
@@ -75,11 +77,11 @@ xn--frna-5qa.se
 
 ## Beställningsflöde just nu
 
-- Fabian är primär mottagare för plantskolans beställningar.
-- Beställningar går till `fabian.ryft@gmail.com`.
-- Intern kopia kan skickas dolt till `henrik@gislab.se`.
-- Kunden skickar sitt eget mejl och använder sedan det som kvitto/orderkopia tills Fabian återkopplar.
-- Mängdrabatt räknas automatiskt i varukorg och checkout.
+- Ring Fabian på `0766-148318` för ett gott snack och en beställning.
+- Prislistor, mängdrabatter och bilder finns kvar; aktuella priser och tillgänglighet bekräftas i samtalet.
+- Alla produktrader har grå, inaktiverade köpknappar. Telefonhänvisningen finns överst på plantskolesidan.
+- Menyn visar att plantskolan är stängd och innehåller ingen varukorgslänk.
+- Gamla länkar till `kassa.html` visar ett stängt-besked och Fabians telefonnummer, även för besökare med en sparad varukorg.
 
 ## Om ni vill gå över till EmailJS senare
 

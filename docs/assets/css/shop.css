@@ -65,6 +65,22 @@
   background: rgba(56, 69, 52, 0.08);
 }
 
+.catalog-closed-action {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.catalog-closed-button:disabled {
+  padding: 0.35rem 0.65rem;
+  border: 1px solid #bcae98;
+  border-radius: 8px;
+  background: #e9e2d6;
+  color: #5c4f3e;
+  cursor: not-allowed;
+}
+
 .qty-control {
   display: inline-flex;
   align-items: center;

@@ -22,7 +22,7 @@ website:
       - href: uppdrag.qmd
         text: Uppdrag
       - href: produkter.qmd
-        text: Plantskola
+        text: Plantskola – stängd
       - href: tjanster.qmd
         text: Tjänster
       - href: samskapardagar.qmd
@@ -32,8 +32,6 @@ website:
         text: Partners
       - href: kontakt.qmd
         text: Kontakt
-      - href: kassa.qmd
-        text: Varukorg
 
 format:
   html:
